@@ -9,10 +9,6 @@ app = Flask(__name__)
 def load_exercises():
     json_path = Path(__file__).parent.parent / "data" / "exercise_json" / "parsed_exercises.json"
     
-    if not json_path.exists():
-        print(f"ERROR: File not found at {json_path}", file=sys.stderr)
-        return {}
-    
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
         return data
@@ -20,38 +16,43 @@ def load_exercises():
 @app.route("/")
 def index():
     exercises = load_exercises()
-    if not exercises:
-        return """
-        <h1>No exercises found!</h1>
-        <p>Click the button to sync from Garmin:</p>
-        <button onclick="syncData()">Sync Now</button>
-        <script>
-        async function syncData() {
-            const btn = event.target;
-            btn.disabled = true;
-            btn.textContent = 'Syncing...';
-            try {
-                const res = await fetch('/sync', { method: 'POST' });
-                const data = await res.json();
-                alert(data.message);
-                location.reload();
-            } catch(e) {
-                alert('Error: ' + e);
-            }
-        }
-        </script>
-        """, 200
     return render_template("index.html", exercises=exercises)
 
-@app.route("/sync", methods=["POST"])
-def sync_data():
+@app.route("/sync-all", methods=["POST"])
+def sync_all_data():
     """Trigger sync and parse on demand"""
     try:
         from sync import sync
         from parse import parse
         
         print("Starting sync...", file=sys.stderr)
-        sync()
+        sync(all=True)
+        
+        print("Starting parse...", file=sys.stderr)
+        parse()
+        
+        exercises = load_exercises()
+        return jsonify({
+            "success": True,
+            "message": f"Synced successfully! Loaded {len(exercises)} exercises.",
+            "exercise_count": len(exercises)
+        })
+    except Exception as e:
+        print(f"Sync error: {str(e)}", file=sys.stderr)
+        return jsonify({
+            "success": False,
+            "message": f"Sync failed: {str(e)}"
+        }), 500
+    
+@app.route("/sync-last5", methods=["POST"])
+def sync_last_5_data():
+    """Trigger sync and parse on demand"""
+    try:
+        from sync import sync
+        from parse import parse
+        
+        print("Starting sync...", file=sys.stderr)
+        sync(all=False)
         
         print("Starting parse...", file=sys.stderr)
         parse()

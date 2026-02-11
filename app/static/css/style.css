@@ -195,6 +195,13 @@ h1 {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.sync-buttons {
+    display: flex;
+    gap: 8px;
 }
 
 .sync-btn {
@@ -218,6 +225,14 @@ h1 {
     cursor: not-allowed;
 }
 
+.sync-btn-secondary {
+    background: #6b7280;
+}
+
+.sync-btn-secondary:hover:not(:disabled) {
+    background: #4b5563;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
     body {
@@ -226,6 +241,21 @@ h1 {
 
     h1 {
         font-size: 22px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .sync-buttons {
+        width: 100%;
+    }
+
+    .sync-btn {
+        flex: 1;
+        padding: 8px 12px;
+        font-size: 13px;
     }
 
     .exercise-grid {

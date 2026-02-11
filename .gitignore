@@ -1,7 +1,7 @@
 # Data exports
 
 data/
-
+datas/
 .env
 *.env
 __pycache__/

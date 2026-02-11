@@ -9,10 +9,15 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>💪 Workout Tracker</h1>
-            <button id="sync-btn" class="sync-btn" onclick="syncData()">
-                🔄 Sync from Garmin
-            </button>
+            <h1>Workout Tracker</h1>
+            <div class="sync-buttons">
+                <button id="sync-last-btn" class="sync-btn sync-btn-secondary" onclick="syncLast()">
+                    🔄 Sync Last 5
+                </button>
+                <button id="sync-all-btn" class="sync-btn" onclick="syncAll()">
+                    🔄 Sync All
+                </button>
+            </div>
         </div>
         <input type="text" id="search" placeholder="Search exercises..." class="search-box">
         <div class="exercise-grid" id="exercise-grid">
@@ -40,13 +45,13 @@
         </div>
     </div>
     <script>
-        async function syncData() {
-            const btn = document.getElementById('sync-btn');
+        async function syncAll() {
+            const btn = document.getElementById('sync-all-btn');
             btn.disabled = true;
-            btn.textContent = '⏳ Syncing...';
+            btn.textContent = '⏳ Syncing All...';
             
             try {
-                const res = await fetch('/sync', { method: 'POST' });
+                const res = await fetch('/sync-all', { method: 'POST' });
                 const data = await res.json();
                 
                 if (data.success) {
@@ -57,7 +62,7 @@
                     alert(data.message);
                     setTimeout(() => {
                         btn.disabled = false;
-                        btn.textContent = '🔄 Sync from Garmin';
+                        btn.textContent = '🔄 Sync All';
                     }, 2000);
                 }
             } catch(e) {
@@ -65,7 +70,37 @@
                 alert('Error: ' + e);
                 setTimeout(() => {
                     btn.disabled = false;
-                    btn.textContent = '🔄 Sync from Garmin';
+                    btn.textContent = '🔄 Sync All';
+                }, 2000);
+            }
+        }
+
+        async function syncLast() {
+            const btn = document.getElementById('sync-last-btn');
+            btn.disabled = true;
+            btn.textContent = '⏳ Syncing...';
+            
+            try {
+                const res = await fetch('/sync-last5', { method: 'POST' });
+                const data = await res.json();
+                
+                if (data.success) {
+                    btn.textContent = '✅ Synced!';
+                    setTimeout(() => location.reload(), 1000);
+                } else {
+                    btn.textContent = '❌ Failed';
+                    alert(data.message);
+                    setTimeout(() => {
+                        btn.disabled = false;
+                        btn.textContent = '🔄 Sync Last 5';
+                    }, 2000);
+                }
+            } catch(e) {
+                btn.textContent = '❌ Error';
+                alert('Error: ' + e);
+                setTimeout(() => {
+                    btn.disabled = false;
+                    btn.textContent = '🔄 Sync Last 5';
                 }, 2000);
             }
         }
