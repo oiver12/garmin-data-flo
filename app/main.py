@@ -2,7 +2,7 @@ def main():
     from sync import sync
     from parse import parse
 
-    syncing = True
+    syncing = False
     parsing = True
     web_server = True
     if syncing:
