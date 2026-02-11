@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 
 
-def sync():
+def sync(all=False):
     
     load_dotenv()  # Load variables from .env file
     email = os.getenv("EMAIL")
@@ -21,7 +21,7 @@ def sync():
     hr_data = api.get_heart_rates(_today)
     print(f"Resting HR: {hr_data.get('restingHeartRate', 'n/a')}")
     
-    sync_all(api)
+    sync_last(api)
     
 def sync_last(api):
     try:
@@ -32,10 +32,11 @@ def sync_last(api):
 
         # Find strength training activities
         for activity in activities:
+            print(activity["activityId"])
             activity_type = activity.get("activityType", {})
             type_key = activity_type.get("typeKey", "")
             if "strength" in type_key.lower() or "training" in type_key.lower():
-                strength_activity = activity
+                save_workout_data(activity, api)
                 break
     except Exception as e:
         print("No strength exercises found")
@@ -69,12 +70,16 @@ def save_workout_data(strength_activity, api):
 
 
 def save_to_json(activity_id, data):
-    base_dir = Path("../data/jsons")
-    base_dir.mkdir(parents=True, exist_ok=True)
+    try:
+        base_dir = Path(__file__).parent.parent / "data" / "jsons"
 
-    file_path = base_dir / f"{activity_id}.json"
+        base_dir.mkdir(parents=True, exist_ok=True)
 
-    with open(file_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
+        file_path = base_dir / f"{activity_id}.json"
 
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+
+    except Exception as e:
+        print(f"Error saving workout data for activity {activity_id}: {e}")
 

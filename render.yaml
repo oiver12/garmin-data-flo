@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: garmin-tracker
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app/main.py"
+    envVars:
+      - key: PORT
+        value: 5000

@@ -1,6 +1,6 @@
 # Data exports
 
-data/
+data/jsons/
 
 .env
 *.env

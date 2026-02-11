@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1> Workout Tracker</h1>
+        <input type="text" id="search" placeholder="Search exercises..." class="search-box">
+        <div class="exercise-grid" id="exercise-grid">
+            {% for exercise_name, dates in exercises.items() %}
+            <a href="/exercise/{{ exercise_name }}" class="exercise-card" data-name="{{ exercise_name }}">
+                <div class="exercise-name">{{ exercise_name.replace('_', ' ').title() }}</div>
+                <div class="exercise-stats">
+                    <span>📅 {{ dates.keys() | list | length }} sessions</span>
+                    <span>📊 {{ dates.values() | map('length') | sum }} total sets</span>
+                </div>
+                {% set latest_date = dates.keys() | list | last %}
+                {% set latest_sets = dates[latest_date] %}
+                <div class="latest-session">
+                    <span class="label">Latest: {{ latest_date }}</span>
+                    <div class="mini-sets">
+                        {% for set in latest_sets %}
+                        <span class="mini-set">
+                            {{ set.reps }}x{{ (set.weight / 1000) | round(1) if set.weight and set.weight > 0 else '0' }}kg
+                        </span>
+                        {% endfor %}
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
