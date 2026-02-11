@@ -1,4 +1,5 @@
 import os
+import sys
 from flask import Flask, render_template, jsonify
 from pathlib import Path
 import json
@@ -7,8 +8,9 @@ app = Flask(__name__)
 
 def load_exercises():
     json_path = Path(__file__).parent.parent / "data" / "exercise_json" / "parsed_exercises.json"
-    print(f"Looking for file at: {json_path}")
-    print(f"File exists: {json_path.exists()}")
+    print(f"Looking for file at: {json_path}", file=sys.stderr)
+    print(f"Absolute path: {json_path.absolute()}", file=sys.stderr)
+    print(f"File exists: {json_path.exists()}", file=sys.stderr)
     
     if not json_path.exists():
         print(f"ERROR: File not found at {json_path}")
