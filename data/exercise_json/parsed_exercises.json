@@ -1,319 +1,40 @@
 {
-  "PULL_UP": {
+  "INCLINE_BARBELL_BENCH_PRESS": {
     "analytics": {
       "rep_max": [
         [
           43000.0,
-          "2026-02-03",
+          "2026-02-02",
           false
         ],
         [
           43000.0,
-          "2026-02-03",
+          "2026-02-02",
           false
         ],
         [
           43000.0,
-          "2026-02-03",
+          "2026-02-02",
           false
         ],
         [
           43000.0,
-          "2026-02-03",
+          "2026-02-02",
           false
         ],
         [
           43000.0,
-          "2026-02-03",
+          "2026-02-02",
           false
         ],
         [
           43000.0,
-          "2026-02-03",
+          "2026-02-02",
           false
         ],
         [
           43000.0,
-          "2026-02-03",
-          false
-        ],
-        [
-          43000.0,
-          "2026-02-03",
-          true
-        ],
-        [
-          500.0,
-          "2026-02-09",
-          true
-        ],
-        [
-          0,
-          ""
-        ]
-      ]
-    },
-    "sessions": {
-      "2026-01-29": [
-        {
-          "activityName": null,
-          "activityId": 21705954819,
-          "ssetID": null,
-          "reps": 6,
-          "weight": -1.0,
-          "date": "2026-01-29"
-        },
-        {
-          "activityName": null,
-          "activityId": 21705954819,
-          "ssetID": null,
-          "reps": 3,
-          "weight": -1.0,
-          "date": "2026-01-29"
-        },
-        {
-          "activityName": null,
-          "activityId": 21705954819,
-          "ssetID": null,
-          "reps": 6,
-          "weight": -1.0,
-          "date": "2026-01-29"
-        }
-      ],
-      "2026-02-03": [
-        {
-          "activityName": "PULL_UP",
-          "activityId": 21753660373,
-          "ssetID": 0,
-          "reps": 8,
-          "weight": 0.0,
-          "date": "2026-02-03"
-        },
-        {
-          "activityName": null,
-          "activityId": 21753660373,
-          "ssetID": 2,
-          "reps": 6,
-          "weight": 0.0,
-          "date": "2026-02-03"
-        },
-        {
-          "activityName": null,
-          "activityId": 21753660373,
-          "ssetID": 4,
-          "reps": 3,
-          "weight": 0.0,
-          "date": "2026-02-03"
-        },
-        {
-          "activityName": "CLOSE_GRIP_LAT_PULLDOWN",
-          "activityId": 21753660373,
-          "ssetID": 12,
-          "reps": 8,
-          "weight": 43000.0,
-          "date": "2026-02-03"
-        }
-      ],
-      "2026-02-09": [
-        {
-          "activityName": "WEIGHTED_PULL_UP",
-          "activityId": 21816357640,
-          "ssetID": null,
-          "reps": 9,
-          "weight": 500.0,
-          "date": "2026-02-09"
-        },
-        {
-          "activityName": "WEIGHTED_PULL_UP",
-          "activityId": 21816357640,
-          "ssetID": null,
-          "reps": 5,
-          "weight": 500.0,
-          "date": "2026-02-09"
-        },
-        {
-          "activityName": "WEIGHTED_PULL_UP",
-          "activityId": 21816357640,
-          "ssetID": null,
-          "reps": 3,
-          "weight": 500.0,
-          "date": "2026-02-09"
-        }
-      ]
-    }
-  },
-  "ROW": {
-    "analytics": {
-      "rep_max": [
-        [
-          52000.0,
-          "2026-02-09",
-          false
-        ],
-        [
-          52000.0,
-          "2026-02-09",
-          false
-        ],
-        [
-          52000.0,
-          "2026-02-09",
-          false
-        ],
-        [
-          52000.0,
-          "2026-02-09",
-          false
-        ],
-        [
-          52000.0,
-          "2026-02-09",
-          false
-        ],
-        [
-          52000.0,
-          "2026-02-09",
-          false
-        ],
-        [
-          52000.0,
-          "2026-02-09",
-          false
-        ],
-        [
-          52000.0,
-          "2026-02-09",
-          false
-        ],
-        [
-          52000.0,
-          "2026-02-09",
-          false
-        ],
-        [
-          52000.0,
-          "2026-02-09",
-          true
-        ]
-      ]
-    },
-    "sessions": {
-      "2026-01-29": [
-        {
-          "activityName": null,
-          "activityId": 21705954819,
-          "ssetID": null,
-          "reps": 11,
-          "weight": 0.0,
-          "date": "2026-01-29"
-        },
-        {
-          "activityName": null,
-          "activityId": 21705954819,
-          "ssetID": null,
-          "reps": 8,
-          "weight": 25000.0,
-          "date": "2026-01-29"
-        },
-        {
-          "activityName": "SEATED_CABLE_ROW",
-          "activityId": 21705954819,
-          "ssetID": null,
-          "reps": 10,
-          "weight": 25000.0,
-          "date": "2026-01-29"
-        }
-      ],
-      "2026-02-03": [
-        {
-          "activityName": null,
-          "activityId": 21753660373,
-          "ssetID": 6,
-          "reps": 12,
-          "weight": 43000.0,
-          "date": "2026-02-03"
-        },
-        {
-          "activityName": null,
-          "activityId": 21753660373,
-          "ssetID": 8,
-          "reps": 6,
-          "weight": 47000.0,
-          "date": "2026-02-03"
-        },
-        {
-          "activityName": null,
-          "activityId": 21753660373,
-          "ssetID": 10,
-          "reps": 9,
-          "weight": 43000.0,
-          "date": "2026-02-03"
-        }
-      ],
-      "2026-02-09": [
-        {
-          "activityName": "BARBELL_ROW",
-          "activityId": 21816357640,
-          "ssetID": null,
-          "reps": 10,
-          "weight": 52000.0,
-          "date": "2026-02-09"
-        },
-        {
-          "activityName": "BARBELL_ROW",
-          "activityId": 21816357640,
-          "ssetID": null,
-          "reps": 6,
-          "weight": 52000.0,
-          "date": "2026-02-09"
-        },
-        {
-          "activityName": "BARBELL_ROW",
-          "activityId": 21816357640,
-          "ssetID": null,
-          "reps": 9,
-          "weight": 43000.0,
-          "date": "2026-02-09"
-        }
-      ]
-    }
-  },
-  "BENCH_PRESS": {
-    "analytics": {
-      "rep_max": [
-        [
-          43000.0,
-          "2026-02-05",
-          false
-        ],
-        [
-          43000.0,
-          "2026-02-05",
-          false
-        ],
-        [
-          43000.0,
-          "2026-02-05",
-          false
-        ],
-        [
-          43000.0,
-          "2026-02-05",
-          false
-        ],
-        [
-          43000.0,
-          "2026-02-05",
-          false
-        ],
-        [
-          43000.0,
-          "2026-02-05",
-          false
-        ],
-        [
-          43000.0,
-          "2026-02-05",
+          "2026-02-02",
           true
         ],
         [
@@ -334,19 +55,8 @@
       ]
     },
     "sessions": {
-      "2026-01-29": [
-        {
-          "activityName": null,
-          "activityId": 21705954819,
-          "ssetID": null,
-          "reps": 8,
-          "weight": 25000.0,
-          "date": "2026-01-29"
-        }
-      ],
       "2026-02-02": [
         {
-          "activityName": "INCLINE_BARBELL_BENCH_PRESS",
           "activityId": 21743467027,
           "ssetID": null,
           "reps": 15,
@@ -354,33 +64,29 @@
           "date": "2026-02-02"
         },
         {
-          "activityName": "INCLINE_BARBELL_BENCH_PRESS",
           "activityId": 21743467027,
           "ssetID": null,
           "reps": 7,
-          "weight": 42000.0,
+          "weight": 43000.0,
           "date": "2026-02-02"
         },
         {
-          "activityName": "INCLINE_BARBELL_BENCH_PRESS",
           "activityId": 21743467027,
           "ssetID": null,
           "reps": 7,
-          "weight": 42000.0,
+          "weight": 43000.0,
           "date": "2026-02-02"
         },
         {
-          "activityName": "INCLINE_BARBELL_BENCH_PRESS",
           "activityId": 21743467027,
           "ssetID": null,
           "reps": 3,
-          "weight": 42000.0,
+          "weight": 43000.0,
           "date": "2026-02-02"
         }
       ],
       "2026-02-05": [
         {
-          "activityName": "INCLINE_BARBELL_BENCH_PRESS",
           "activityId": 21775193347,
           "ssetID": null,
           "reps": 12,
@@ -388,7 +94,6 @@
           "date": "2026-02-05"
         },
         {
-          "activityName": "INCLINE_BARBELL_BENCH_PRESS",
           "activityId": 21775193347,
           "ssetID": null,
           "reps": 7,
@@ -396,7 +101,6 @@
           "date": "2026-02-05"
         },
         {
-          "activityName": "INCLINE_BARBELL_BENCH_PRESS",
           "activityId": 21775193347,
           "ssetID": null,
           "reps": 5,
@@ -404,7 +108,6 @@
           "date": "2026-02-05"
         },
         {
-          "activityName": "INCLINE_BARBELL_BENCH_PRESS",
           "activityId": 21775193347,
           "ssetID": null,
           "reps": 5,
@@ -412,7 +115,6 @@
           "date": "2026-02-05"
         },
         {
-          "activityName": "INCLINE_BARBELL_BENCH_PRESS",
           "activityId": 21775193347,
           "ssetID": null,
           "reps": 3,
@@ -422,7 +124,6 @@
       ],
       "2026-02-11": [
         {
-          "activityName": "INCLINE_BARBELL_BENCH_PRESS",
           "activityId": 21838183510,
           "ssetID": null,
           "reps": 18,
@@ -430,7 +131,6 @@
           "date": "2026-02-11"
         },
         {
-          "activityName": "INCLINE_BARBELL_BENCH_PRESS",
           "activityId": 21838183510,
           "ssetID": null,
           "reps": 8,
@@ -438,7 +138,6 @@
           "date": "2026-02-11"
         },
         {
-          "activityName": "INCLINE_BARBELL_BENCH_PRESS",
           "activityId": 21838183510,
           "ssetID": null,
           "reps": 6,
@@ -446,7 +145,6 @@
           "date": "2026-02-11"
         },
         {
-          "activityName": "INCLINE_BARBELL_BENCH_PRESS",
           "activityId": 21838183510,
           "ssetID": null,
           "reps": 5,
@@ -454,140 +152,11 @@
           "date": "2026-02-11"
         },
         {
-          "activityName": "INCLINE_BARBELL_BENCH_PRESS",
           "activityId": 21838183510,
           "ssetID": null,
           "reps": 5,
           "weight": 43000.0,
           "date": "2026-02-11"
-        }
-      ]
-    }
-  },
-  "UNKNOWN": {
-    "analytics": {
-      "rep_max": [
-        [
-          43000.0,
-          "2026-02-03",
-          false
-        ],
-        [
-          43000.0,
-          "2026-02-03",
-          false
-        ],
-        [
-          43000.0,
-          "2026-02-03",
-          false
-        ],
-        [
-          43000.0,
-          "2026-02-03",
-          false
-        ],
-        [
-          43000.0,
-          "2026-02-03",
-          false
-        ],
-        [
-          43000.0,
-          "2026-02-03",
-          false
-        ],
-        [
-          43000.0,
-          "2026-02-03",
-          true
-        ],
-        [
-          28000.0,
-          "2026-02-03",
-          false
-        ],
-        [
-          28000.0,
-          "2026-02-03",
-          true
-        ],
-        [
-          26000.0,
-          "2026-02-03",
-          false
-        ]
-      ]
-    },
-    "sessions": {
-      "2026-01-29": [
-        {
-          "activityName": null,
-          "activityId": 21705954819,
-          "ssetID": null,
-          "reps": 10,
-          "weight": 20000.0,
-          "date": "2026-01-29"
-        }
-      ],
-      "2026-02-02": [
-        {
-          "activityName": null,
-          "activityId": 21743467027,
-          "ssetID": null,
-          "reps": 4,
-          "weight": 8000.0,
-          "date": "2026-02-02"
-        }
-      ],
-      "2026-02-03": [
-        {
-          "activityName": null,
-          "activityId": 21753660373,
-          "ssetID": 14,
-          "reps": 7,
-          "weight": 43000.0,
-          "date": "2026-02-03"
-        },
-        {
-          "activityName": null,
-          "activityId": 21753660373,
-          "ssetID": 16,
-          "reps": 11,
-          "weight": 13000.0,
-          "date": "2026-02-03"
-        },
-        {
-          "activityName": null,
-          "activityId": 21753660373,
-          "ssetID": 20,
-          "reps": 7,
-          "weight": 16000.0,
-          "date": "2026-02-03"
-        },
-        {
-          "activityName": null,
-          "activityId": 21753660373,
-          "ssetID": 26,
-          "reps": 5,
-          "weight": 18000.0,
-          "date": "2026-02-03"
-        },
-        {
-          "activityName": null,
-          "activityId": 21753660373,
-          "ssetID": 30,
-          "reps": 14,
-          "weight": 26000.0,
-          "date": "2026-02-03"
-        },
-        {
-          "activityName": null,
-          "activityId": 21753660373,
-          "ssetID": 32,
-          "reps": 9,
-          "weight": 28000.0,
-          "date": "2026-02-03"
         }
       ]
     }
@@ -650,7 +219,13 @@
     "sessions": {
       "2026-01-29": [
         {
-          "activityName": null,
+          "activityId": 21705954819,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 20000.0,
+          "date": "2026-01-29"
+        },
+        {
           "activityId": 21705954819,
           "ssetID": null,
           "reps": 8,
@@ -660,7 +235,6 @@
       ],
       "2026-02-02": [
         {
-          "activityName": null,
           "activityId": 21743467027,
           "ssetID": null,
           "reps": 12,
@@ -668,7 +242,6 @@
           "date": "2026-02-02"
         },
         {
-          "activityName": null,
           "activityId": 21743467027,
           "ssetID": null,
           "reps": 8,
@@ -678,25 +251,22 @@
       ],
       "2026-02-03": [
         {
-          "activityName": null,
           "activityId": 21753660373,
-          "ssetID": 34,
+          "ssetID": null,
           "reps": 17,
           "weight": 11000.0,
           "date": "2026-02-03"
         },
         {
-          "activityName": null,
           "activityId": 21753660373,
-          "ssetID": 36,
+          "ssetID": null,
           "reps": 9,
           "weight": 23000.0,
           "date": "2026-02-03"
         },
         {
-          "activityName": null,
           "activityId": 21753660373,
-          "ssetID": 38,
+          "ssetID": null,
           "reps": 8,
           "weight": 23000.0,
           "date": "2026-02-03"
@@ -704,7 +274,6 @@
       ],
       "2026-02-05": [
         {
-          "activityName": null,
           "activityId": 21775193347,
           "ssetID": null,
           "reps": 10,
@@ -712,7 +281,6 @@
           "date": "2026-02-05"
         },
         {
-          "activityName": null,
           "activityId": 21775193347,
           "ssetID": null,
           "reps": 7,
@@ -720,998 +288,61 @@
           "date": "2026-02-05"
         },
         {
-          "activityName": null,
           "activityId": 21775193347,
           "ssetID": null,
           "reps": 5,
           "weight": 27000.0,
           "date": "2026-02-05"
         }
-      ],
-      "2026-02-09": [
-        {
-          "activityName": "SEATED_REAR_LATERAL_RAISE",
-          "activityId": 21816357640,
-          "ssetID": null,
-          "reps": 7,
-          "weight": 4500.0,
-          "date": "2026-02-09"
-        },
-        {
-          "activityName": "SEATED_REAR_LATERAL_RAISE",
-          "activityId": 21816357640,
-          "ssetID": null,
-          "reps": 9,
-          "weight": 3000.0,
-          "date": "2026-02-09"
-        },
-        {
-          "activityName": "SEATED_REAR_LATERAL_RAISE",
-          "activityId": 21816357640,
-          "ssetID": null,
-          "reps": 10,
-          "weight": 3000.0,
-          "date": "2026-02-09"
-        }
       ]
     }
   },
-  "PUSH_UP": {
+  "WEIGHTED_PULL_UP": {
     "analytics": {
       "rep_max": [
         [
-          11000.0,
+          500.0,
           "2026-01-29",
           false
         ],
         [
-          11000.0,
+          500.0,
           "2026-01-29",
           false
         ],
         [
-          11000.0,
+          500.0,
           "2026-01-29",
           false
         ],
         [
-          11000.0,
+          500.0,
           "2026-01-29",
           false
         ],
         [
-          11000.0,
+          500.0,
           "2026-01-29",
           false
         ],
         [
-          11000.0,
-          "2026-01-29",
-          false
-        ],
-        [
-          11000.0,
-          "2026-01-29",
-          false
-        ],
-        [
-          11000.0,
-          "2026-01-29",
-          false
-        ],
-        [
-          11000.0,
-          "2026-01-29",
-          false
-        ],
-        [
-          11000.0,
-          "2026-01-29",
-          false
-        ]
-      ]
-    },
-    "sessions": {
-      "2026-01-29": [
-        {
-          "activityName": null,
-          "activityId": 21705954819,
-          "ssetID": null,
-          "reps": 14,
-          "weight": 11000.0,
-          "date": "2026-01-29"
-        }
-      ],
-      "2026-02-05": [
-        {
-          "activityName": null,
-          "activityId": 21775193347,
-          "ssetID": null,
-          "reps": 10,
-          "weight": 0.0,
-          "date": "2026-02-05"
-        }
-      ]
-    }
-  },
-  "CURL": {
-    "analytics": {
-      "rep_max": [
-        [
-          18000.0,
-          "2026-01-29",
-          false
-        ],
-        [
-          18000.0,
-          "2026-01-29",
-          false
-        ],
-        [
-          18000.0,
-          "2026-01-29",
-          false
-        ],
-        [
-          18000.0,
-          "2026-01-29",
-          false
-        ],
-        [
-          18000.0,
-          "2026-01-29",
-          false
-        ],
-        [
-          18000.0,
-          "2026-01-29",
-          false
-        ],
-        [
-          18000.0,
+          500.0,
           "2026-01-29",
           true
         ],
         [
-          9000.0,
+          500.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          500.0,
+          "2026-02-03",
+          true
+        ],
+        [
+          500.0,
           "2026-02-09",
-          false
-        ],
-        [
-          9000.0,
-          "2026-02-09",
-          false
-        ],
-        [
-          9000.0,
-          "2026-02-09",
-          true
-        ]
-      ]
-    },
-    "sessions": {
-      "2026-01-29": [
-        {
-          "activityName": null,
-          "activityId": 21705954819,
-          "ssetID": null,
-          "reps": 7,
-          "weight": 18000.0,
-          "date": "2026-01-29"
-        }
-      ],
-      "2026-02-03": [
-        {
-          "activityName": null,
-          "activityId": 21753660373,
-          "ssetID": 22,
-          "reps": 7,
-          "weight": 18000.0,
-          "date": "2026-02-03"
-        },
-        {
-          "activityName": null,
-          "activityId": 21753660373,
-          "ssetID": 24,
-          "reps": 6,
-          "weight": 18000.0,
-          "date": "2026-02-03"
-        }
-      ],
-      "2026-02-09": [
-        {
-          "activityName": "DUMBBELL_BICEPS_CURL",
-          "activityId": 21816357640,
-          "ssetID": null,
-          "reps": 15,
-          "weight": 8000.0,
-          "date": "2026-02-09"
-        },
-        {
-          "activityName": "DUMBBELL_BICEPS_CURL",
-          "activityId": 21816357640,
-          "ssetID": null,
-          "reps": 10,
-          "weight": 9000.0,
-          "date": "2026-02-09"
-        },
-        {
-          "activityName": "DUMBBELL_BICEPS_CURL",
-          "activityId": 21816357640,
-          "ssetID": null,
-          "reps": 5,
-          "weight": 9000.0,
-          "date": "2026-02-09"
-        }
-      ]
-    }
-  },
-  "TRICEPS_EXTENSION": {
-    "analytics": {
-      "rep_max": [
-        [
-          34000.0,
-          "2026-02-11",
-          false
-        ],
-        [
-          34000.0,
-          "2026-02-11",
-          false
-        ],
-        [
-          34000.0,
-          "2026-02-11",
-          false
-        ],
-        [
-          34000.0,
-          "2026-02-11",
-          false
-        ],
-        [
-          34000.0,
-          "2026-02-11",
-          false
-        ],
-        [
-          34000.0,
-          "2026-02-11",
-          true
-        ],
-        [
-          27000.0,
-          "2026-02-05",
-          false
-        ],
-        [
-          27000.0,
-          "2026-02-05",
-          true
-        ],
-        [
-          27000.0,
-          "2026-02-05",
-          false
-        ],
-        [
-          27000.0,
-          "2026-02-05",
-          true
-        ]
-      ]
-    },
-    "sessions": {
-      "2026-02-02": [
-        {
-          "activityName": "WEIGHTED_DIP",
-          "activityId": 21743467027,
-          "ssetID": null,
-          "reps": 3,
-          "weight": 13000.0,
-          "date": "2026-02-02"
-        },
-        {
-          "activityName": "WEIGHTED_DIP",
-          "activityId": 21743467027,
-          "ssetID": null,
-          "reps": 5,
-          "weight": 18000.0,
-          "date": "2026-02-02"
-        }
-      ],
-      "2026-02-05": [
-        {
-          "activityName": "WEIGHTED_DIP",
-          "activityId": 21775193347,
-          "ssetID": null,
-          "reps": 8,
-          "weight": 27000.0,
-          "date": "2026-02-05"
-        },
-        {
-          "activityName": "WEIGHTED_DIP",
-          "activityId": 21775193347,
-          "ssetID": null,
-          "reps": 5,
-          "weight": 27000.0,
-          "date": "2026-02-05"
-        },
-        {
-          "activityName": "WEIGHTED_DIP",
-          "activityId": 21775193347,
-          "ssetID": null,
-          "reps": 10,
-          "weight": 27000.0,
-          "date": "2026-02-05"
-        },
-        {
-          "activityName": "LYING_EZ_BAR_TRICEPS_EXTENSION",
-          "activityId": 21775193347,
-          "ssetID": null,
-          "reps": 10,
-          "weight": 16000.0,
-          "date": "2026-02-05"
-        },
-        {
-          "activityName": "LYING_EZ_BAR_TRICEPS_EXTENSION",
-          "activityId": 21775193347,
-          "ssetID": null,
-          "reps": 6,
-          "weight": 16000.0,
-          "date": "2026-02-05"
-        },
-        {
-          "activityName": "LYING_EZ_BAR_TRICEPS_EXTENSION",
-          "activityId": 21775193347,
-          "ssetID": null,
-          "reps": 7,
-          "weight": 16000.0,
-          "date": "2026-02-05"
-        }
-      ],
-      "2026-02-11": [
-        {
-          "activityName": "WEIGHTED_DIP",
-          "activityId": 21838183510,
-          "ssetID": null,
-          "reps": 10,
-          "weight": 27000.0,
-          "date": "2026-02-11"
-        },
-        {
-          "activityName": "WEIGHTED_DIP",
-          "activityId": 21838183510,
-          "ssetID": null,
-          "reps": 5,
-          "weight": 27000.0,
-          "date": "2026-02-11"
-        },
-        {
-          "activityName": "WEIGHTED_DIP",
-          "activityId": 21838183510,
-          "ssetID": null,
-          "reps": 6,
-          "weight": 34000.0,
-          "date": "2026-02-11"
-        },
-        {
-          "activityName": "LYING_EZ_BAR_TRICEPS_EXTENSION",
-          "activityId": 21838183510,
-          "ssetID": null,
-          "reps": 11,
-          "weight": 16000.0,
-          "date": "2026-02-11"
-        },
-        {
-          "activityName": "LYING_EZ_BAR_TRICEPS_EXTENSION",
-          "activityId": 21838183510,
-          "ssetID": null,
-          "reps": 7,
-          "weight": 16000.0,
-          "date": "2026-02-11"
-        },
-        {
-          "activityName": "LYING_EZ_BAR_TRICEPS_EXTENSION",
-          "activityId": 21838183510,
-          "ssetID": null,
-          "reps": 2,
-          "weight": 16000.0,
-          "date": "2026-02-11"
-        }
-      ]
-    }
-  },
-  "SHOULDER_PRESS": {
-    "analytics": {
-      "rep_max": [
-        [
-          29000.0,
-          "2026-02-11",
-          false
-        ],
-        [
-          29000.0,
-          "2026-02-11",
-          false
-        ],
-        [
-          29000.0,
-          "2026-02-11",
-          false
-        ],
-        [
-          29000.0,
-          "2026-02-11",
-          false
-        ],
-        [
-          29000.0,
-          "2026-02-11",
-          false
-        ],
-        [
-          29000.0,
-          "2026-02-11",
-          true
-        ],
-        [
-          25000.0,
-          "2026-02-11",
-          false
-        ],
-        [
-          25000.0,
-          "2026-02-11",
-          true
-        ],
-        [
-          23000.0,
-          "2026-02-02",
-          false
-        ],
-        [
-          23000.0,
-          "2026-02-02",
-          false
-        ]
-      ]
-    },
-    "sessions": {
-      "2026-02-02": [
-        {
-          "activityName": "OVERHEAD_BARBELL_PRESS",
-          "activityId": 21743467027,
-          "ssetID": null,
-          "reps": 13,
-          "weight": 23000.0,
-          "date": "2026-02-02"
-        },
-        {
-          "activityName": "OVERHEAD_BARBELL_PRESS",
-          "activityId": 21743467027,
-          "ssetID": null,
-          "reps": 6,
-          "weight": 27000.0,
-          "date": "2026-02-02"
-        },
-        {
-          "activityName": "OVERHEAD_BARBELL_PRESS",
-          "activityId": 21743467027,
-          "ssetID": null,
-          "reps": 5,
-          "weight": 23000.0,
-          "date": "2026-02-02"
-        }
-      ],
-      "2026-02-05": [
-        {
-          "activityName": "OVERHEAD_BARBELL_PRESS",
-          "activityId": 21775193347,
-          "ssetID": null,
-          "reps": 10,
-          "weight": 20000.0,
-          "date": "2026-02-05"
-        },
-        {
-          "activityName": "OVERHEAD_BARBELL_PRESS",
-          "activityId": 21775193347,
-          "ssetID": null,
-          "reps": 6,
-          "weight": 25000.0,
-          "date": "2026-02-05"
-        },
-        {
-          "activityName": "OVERHEAD_BARBELL_PRESS",
-          "activityId": 21775193347,
-          "ssetID": null,
-          "reps": 7,
-          "weight": 20000.0,
-          "date": "2026-02-05"
-        }
-      ],
-      "2026-02-11": [
-        {
-          "activityName": "OVERHEAD_BARBELL_PRESS",
-          "activityId": 21838183510,
-          "ssetID": null,
-          "reps": 6,
-          "weight": 29000.0,
-          "date": "2026-02-11"
-        },
-        {
-          "activityName": "OVERHEAD_BARBELL_PRESS",
-          "activityId": 21838183510,
-          "ssetID": null,
-          "reps": 8,
-          "weight": 25000.0,
-          "date": "2026-02-11"
-        },
-        {
-          "activityName": "OVERHEAD_BARBELL_PRESS",
-          "activityId": 21838183510,
-          "ssetID": null,
-          "reps": 5,
-          "weight": 25000.0,
-          "date": "2026-02-11"
-        }
-      ]
-    }
-  },
-  "SIT_UP": {
-    "analytics": {
-      "rep_max": [
-        [
-          23000.0,
-          "2026-02-03",
-          false
-        ],
-        [
-          23000.0,
-          "2026-02-03",
-          false
-        ],
-        [
-          23000.0,
-          "2026-02-03",
-          false
-        ],
-        [
-          23000.0,
-          "2026-02-03",
-          false
-        ],
-        [
-          23000.0,
-          "2026-02-03",
-          false
-        ],
-        [
-          23000.0,
-          "2026-02-03",
-          false
-        ],
-        [
-          23000.0,
-          "2026-02-03",
-          false
-        ],
-        [
-          23000.0,
-          "2026-02-03",
-          true
-        ],
-        [
-          13000.0,
-          "2026-02-03",
-          false
-        ],
-        [
-          13000.0,
-          "2026-02-03",
-          false
-        ]
-      ]
-    },
-    "sessions": {
-      "2026-02-02": [
-        {
-          "activityName": "WEIGHTED_SIT_UP",
-          "activityId": 21743467027,
-          "ssetID": null,
-          "reps": 7,
-          "weight": 8000.0,
-          "date": "2026-02-02"
-        },
-        {
-          "activityName": "WEIGHTED_SIT_UP",
-          "activityId": 21743467027,
-          "ssetID": null,
-          "reps": 8,
-          "weight": 8000.0,
-          "date": "2026-02-02"
-        }
-      ],
-      "2026-02-03": [
-        {
-          "activityName": null,
-          "activityId": 21753660373,
-          "ssetID": 18,
-          "reps": 11,
-          "weight": 13000.0,
-          "date": "2026-02-03"
-        },
-        {
-          "activityName": null,
-          "activityId": 21753660373,
-          "ssetID": 40,
-          "reps": 8,
-          "weight": 23000.0,
-          "date": "2026-02-03"
-        }
-      ]
-    }
-  },
-  "SHRUG": {
-    "analytics": {
-      "rep_max": [
-        [
-          54000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          54000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          54000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          54000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          54000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          54000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          54000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          54000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          54000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          54000.0,
-          "2026-02-04",
-          true
-        ]
-      ]
-    },
-    "sessions": {
-      "2026-02-03": [
-        {
-          "activityName": null,
-          "activityId": 21753660373,
-          "ssetID": 28,
-          "reps": 8,
-          "weight": 5000.0,
-          "date": "2026-02-03"
-        }
-      ],
-      "2026-02-04": [
-        {
-          "activityName": null,
-          "activityId": 21765179878,
-          "ssetID": null,
-          "reps": 10,
-          "weight": 54000.0,
-          "date": "2026-02-04"
-        },
-        {
-          "activityName": null,
-          "activityId": 21765179878,
-          "ssetID": null,
-          "reps": 11,
-          "weight": 45000.0,
-          "date": "2026-02-04"
-        },
-        {
-          "activityName": null,
-          "activityId": 21765179878,
-          "ssetID": null,
-          "reps": 10,
-          "weight": 45000.0,
-          "date": "2026-02-04"
-        }
-      ]
-    }
-  },
-  "SQUAT": {
-    "analytics": {
-      "rep_max": [
-        [
-          52000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          52000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          52000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          52000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          52000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          52000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          52000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          52000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          52000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          52000.0,
-          "2026-02-04",
-          true
-        ]
-      ]
-    },
-    "sessions": {
-      "2026-02-04": [
-        {
-          "activityName": "BARBELL_BACK_SQUAT",
-          "activityId": 21765179878,
-          "ssetID": null,
-          "reps": 20,
-          "weight": 20000.0,
-          "date": "2026-02-04"
-        },
-        {
-          "activityName": "BARBELL_BACK_SQUAT",
-          "activityId": 21765179878,
-          "ssetID": null,
-          "reps": 10,
-          "weight": 43000.0,
-          "date": "2026-02-04"
-        },
-        {
-          "activityName": "BARBELL_BACK_SQUAT",
-          "activityId": 21765179878,
-          "ssetID": null,
-          "reps": 10,
-          "weight": 52000.0,
-          "date": "2026-02-04"
-        }
-      ],
-      "2026-02-10": [
-        {
-          "activityName": "BARBELL_BACK_SQUAT",
-          "activityId": 21826897129,
-          "ssetID": null,
-          "reps": 14,
-          "weight": 30000.0,
-          "date": "2026-02-10"
-        },
-        {
-          "activityName": "BARBELL_BACK_SQUAT",
-          "activityId": 21826897129,
-          "ssetID": null,
-          "reps": 8,
-          "weight": 52000.0,
-          "date": "2026-02-10"
-        },
-        {
-          "activityName": "BARBELL_BACK_SQUAT",
-          "activityId": 21826897129,
-          "ssetID": null,
-          "reps": 8,
-          "weight": 52000.0,
-          "date": "2026-02-10"
-        }
-      ]
-    }
-  },
-  "DEADLIFT": {
-    "analytics": {
-      "rep_max": [
-        [
-          61000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          61000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          61000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          61000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          61000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          61000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          61000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          61000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          61000.0,
-          "2026-02-04",
-          false
-        ],
-        [
-          61000.0,
-          "2026-02-04",
-          true
-        ]
-      ]
-    },
-    "sessions": {
-      "2026-02-04": [
-        {
-          "activityName": "ROMANIAN_DEADLIFT",
-          "activityId": 21765179878,
-          "ssetID": null,
-          "reps": 12,
-          "weight": 43000.0,
-          "date": "2026-02-04"
-        },
-        {
-          "activityName": "ROMANIAN_DEADLIFT",
-          "activityId": 21765179878,
-          "ssetID": null,
-          "reps": 10,
-          "weight": 61000.0,
-          "date": "2026-02-04"
-        },
-        {
-          "activityName": "ROMANIAN_DEADLIFT",
-          "activityId": 21765179878,
-          "ssetID": null,
-          "reps": 4,
-          "weight": 52000.0,
-          "date": "2026-02-04"
-        }
-      ],
-      "2026-02-10": [
-        {
-          "activityName": "ROMANIAN_DEADLIFT",
-          "activityId": 21826897129,
-          "ssetID": null,
-          "reps": 10,
-          "weight": 52000.0,
-          "date": "2026-02-10"
-        },
-        {
-          "activityName": "ROMANIAN_DEADLIFT",
-          "activityId": 21826897129,
-          "ssetID": null,
-          "reps": 10,
-          "weight": 61000.0,
-          "date": "2026-02-10"
-        },
-        {
-          "activityName": "ROMANIAN_DEADLIFT",
-          "activityId": 21826897129,
-          "ssetID": null,
-          "reps": 8,
-          "weight": 61000.0,
-          "date": "2026-02-10"
-        }
-      ]
-    }
-  },
-  "LUNGE": {
-    "analytics": {
-      "rep_max": [
-        [
-          11500.0,
-          "2026-02-10",
-          false
-        ],
-        [
-          11500.0,
-          "2026-02-10",
-          false
-        ],
-        [
-          11500.0,
-          "2026-02-10",
-          false
-        ],
-        [
-          11500.0,
-          "2026-02-10",
-          false
-        ],
-        [
-          11500.0,
-          "2026-02-10",
-          false
-        ],
-        [
-          11500.0,
-          "2026-02-10",
-          false
-        ],
-        [
-          11500.0,
-          "2026-02-10",
-          false
-        ],
-        [
-          11500.0,
-          "2026-02-10",
-          true
-        ],
-        [
-          9000.0,
-          "2026-02-04",
           true
         ],
         [
@@ -1721,150 +352,320 @@
       ]
     },
     "sessions": {
-      "2026-02-04": [
+      "2026-01-29": [
         {
-          "activityName": "DUMBBELL_BULGARIAN_SPLIT_SQUAT",
-          "activityId": 21765179878,
+          "activityId": 21705954819,
           "ssetID": null,
-          "reps": 9,
-          "weight": 9000.0,
-          "date": "2026-02-04"
+          "reps": 6,
+          "weight": 500.0,
+          "date": "2026-01-29"
         },
         {
-          "activityName": "DUMBBELL_BULGARIAN_SPLIT_SQUAT",
-          "activityId": 21765179878,
+          "activityId": 21705954819,
           "ssetID": null,
-          "reps": 8,
-          "weight": 9000.0,
-          "date": "2026-02-04"
+          "reps": 3,
+          "weight": 500.0,
+          "date": "2026-01-29"
+        },
+        {
+          "activityId": 21705954819,
+          "ssetID": null,
+          "reps": 6,
+          "weight": 500.0,
+          "date": "2026-01-29"
         }
       ],
-      "2026-02-10": [
+      "2026-02-03": [
         {
-          "activityName": "DUMBBELL_BULGARIAN_SPLIT_SQUAT",
-          "activityId": 21826897129,
+          "activityId": 21753660373,
           "ssetID": null,
           "reps": 8,
-          "weight": 11500.0,
-          "date": "2026-02-10"
+          "weight": 500.0,
+          "date": "2026-02-03"
         },
         {
-          "activityName": "DUMBBELL_BULGARIAN_SPLIT_SQUAT",
-          "activityId": 21826897129,
+          "activityId": 21753660373,
           "ssetID": null,
-          "reps": 8,
-          "weight": 11500.0,
-          "date": "2026-02-10"
+          "reps": 6,
+          "weight": 500.0,
+          "date": "2026-02-03"
+        },
+        {
+          "activityId": 21753660373,
+          "ssetID": null,
+          "reps": 3,
+          "weight": 500.0,
+          "date": "2026-02-03"
+        }
+      ],
+      "2026-02-09": [
+        {
+          "activityId": 21816357640,
+          "ssetID": null,
+          "reps": 9,
+          "weight": 500.0,
+          "date": "2026-02-09"
+        },
+        {
+          "activityId": 21816357640,
+          "ssetID": null,
+          "reps": 5,
+          "weight": 500.0,
+          "date": "2026-02-09"
+        },
+        {
+          "activityId": 21816357640,
+          "ssetID": null,
+          "reps": 3,
+          "weight": 500.0,
+          "date": "2026-02-09"
         }
       ]
     }
   },
-  "CRUNCH": {
+  "OVERHEAD_BARBELL_PRESS": {
     "analytics": {
       "rep_max": [
         [
-          55000.0,
-          "2026-02-10",
+          29000.0,
+          "2026-02-11",
           false
         ],
         [
-          55000.0,
-          "2026-02-10",
+          29000.0,
+          "2026-02-11",
           false
         ],
         [
-          55000.0,
-          "2026-02-10",
+          29000.0,
+          "2026-02-11",
           false
         ],
         [
-          55000.0,
-          "2026-02-10",
+          29000.0,
+          "2026-02-11",
           false
         ],
         [
-          55000.0,
-          "2026-02-10",
+          29000.0,
+          "2026-02-11",
           false
         ],
         [
-          55000.0,
-          "2026-02-10",
-          false
-        ],
-        [
-          55000.0,
-          "2026-02-10",
+          29000.0,
+          "2026-02-11",
           true
         ],
         [
-          50000.0,
-          "2026-02-10",
-          true
-        ],
-        [
-          45000.0,
-          "2026-02-04",
+          25000.0,
+          "2026-02-11",
           false
         ],
         [
-          45000.0,
-          "2026-02-04",
+          25000.0,
+          "2026-02-11",
+          true
+        ],
+        [
+          23000.0,
+          "2026-02-02",
+          false
+        ],
+        [
+          23000.0,
+          "2026-02-02",
+          false
+        ]
+      ]
+    },
+    "sessions": {
+      "2026-02-02": [
+        {
+          "activityId": 21743467027,
+          "ssetID": null,
+          "reps": 13,
+          "weight": 23000.0,
+          "date": "2026-02-02"
+        },
+        {
+          "activityId": 21743467027,
+          "ssetID": null,
+          "reps": 6,
+          "weight": 27000.0,
+          "date": "2026-02-02"
+        },
+        {
+          "activityId": 21743467027,
+          "ssetID": null,
+          "reps": 5,
+          "weight": 23000.0,
+          "date": "2026-02-02"
+        }
+      ],
+      "2026-02-05": [
+        {
+          "activityId": 21775193347,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 20000.0,
+          "date": "2026-02-05"
+        },
+        {
+          "activityId": 21775193347,
+          "ssetID": null,
+          "reps": 6,
+          "weight": 25000.0,
+          "date": "2026-02-05"
+        },
+        {
+          "activityId": 21775193347,
+          "ssetID": null,
+          "reps": 7,
+          "weight": 20000.0,
+          "date": "2026-02-05"
+        }
+      ],
+      "2026-02-11": [
+        {
+          "activityId": 21838183510,
+          "ssetID": null,
+          "reps": 6,
+          "weight": 29000.0,
+          "date": "2026-02-11"
+        },
+        {
+          "activityId": 21838183510,
+          "ssetID": null,
+          "reps": 8,
+          "weight": 25000.0,
+          "date": "2026-02-11"
+        },
+        {
+          "activityId": 21838183510,
+          "ssetID": null,
+          "reps": 5,
+          "weight": 25000.0,
+          "date": "2026-02-11"
+        }
+      ]
+    }
+  },
+  "WEIGHTED_DIP": {
+    "analytics": {
+      "rep_max": [
+        [
+          34000.0,
+          "2026-02-11",
+          false
+        ],
+        [
+          34000.0,
+          "2026-02-11",
+          false
+        ],
+        [
+          34000.0,
+          "2026-02-11",
+          false
+        ],
+        [
+          34000.0,
+          "2026-02-11",
+          false
+        ],
+        [
+          34000.0,
+          "2026-02-11",
+          false
+        ],
+        [
+          34000.0,
+          "2026-02-11",
+          true
+        ],
+        [
+          27000.0,
+          "2026-02-05",
+          false
+        ],
+        [
+          27000.0,
+          "2026-02-05",
+          true
+        ],
+        [
+          27000.0,
+          "2026-02-05",
+          false
+        ],
+        [
+          27000.0,
+          "2026-02-05",
           true
         ]
       ]
     },
     "sessions": {
-      "2026-02-04": [
+      "2026-02-02": [
         {
-          "activityName": "WEIGHTED_LEG_EXTENSIONS",
-          "activityId": 21765179878,
+          "activityId": 21743467027,
           "ssetID": null,
-          "reps": 10,
-          "weight": 45000.0,
-          "date": "2026-02-04"
+          "reps": 3,
+          "weight": 13000.0,
+          "date": "2026-02-02"
         },
         {
-          "activityName": "WEIGHTED_LEG_EXTENSIONS",
-          "activityId": 21765179878,
+          "activityId": 21743467027,
           "ssetID": null,
-          "reps": 10,
-          "weight": 45000.0,
-          "date": "2026-02-04"
-        },
-        {
-          "activityName": "WEIGHTED_LEG_EXTENSIONS",
-          "activityId": 21765179878,
-          "ssetID": null,
-          "reps": 10,
-          "weight": 45000.0,
-          "date": "2026-02-04"
+          "reps": 5,
+          "weight": 18000.0,
+          "date": "2026-02-02"
         }
       ],
-      "2026-02-10": [
+      "2026-02-05": [
         {
-          "activityName": "WEIGHTED_LEG_EXTENSIONS",
-          "activityId": 21826897129,
-          "ssetID": null,
-          "reps": 11,
-          "weight": 45000.0,
-          "date": "2026-02-10"
-        },
-        {
-          "activityName": "WEIGHTED_LEG_EXTENSIONS",
-          "activityId": 21826897129,
+          "activityId": 21775193347,
           "ssetID": null,
           "reps": 8,
-          "weight": 50000.0,
-          "date": "2026-02-10"
+          "weight": 27000.0,
+          "date": "2026-02-05"
         },
         {
-          "activityName": "WEIGHTED_LEG_EXTENSIONS",
-          "activityId": 21826897129,
+          "activityId": 21775193347,
           "ssetID": null,
-          "reps": 7,
-          "weight": 55000.0,
-          "date": "2026-02-10"
+          "reps": 5,
+          "weight": 27000.0,
+          "date": "2026-02-05"
+        },
+        {
+          "activityId": 21775193347,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 27000.0,
+          "date": "2026-02-05"
+        }
+      ],
+      "2026-02-11": [
+        {
+          "activityId": 21838183510,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 27000.0,
+          "date": "2026-02-11"
+        },
+        {
+          "activityId": 21838183510,
+          "ssetID": null,
+          "reps": 5,
+          "weight": 27000.0,
+          "date": "2026-02-11"
+        },
+        {
+          "activityId": 21838183510,
+          "ssetID": null,
+          "reps": 6,
+          "weight": 34000.0,
+          "date": "2026-02-11"
         }
       ]
     }
@@ -1925,9 +726,24 @@
       ]
     },
     "sessions": {
+      "2026-01-29": [
+        {
+          "activityId": 21705954819,
+          "ssetID": null,
+          "reps": 14,
+          "weight": 11000.0,
+          "date": "2026-01-29"
+        },
+        {
+          "activityId": 21705954819,
+          "ssetID": null,
+          "reps": 7,
+          "weight": 18000.0,
+          "date": "2026-01-29"
+        }
+      ],
       "2026-02-05": [
         {
-          "activityName": null,
           "activityId": 21765179878,
           "ssetID": null,
           "reps": 10,
@@ -1937,7 +753,6 @@
       ],
       "2026-02-10": [
         {
-          "activityName": null,
           "activityId": 21826897129,
           "ssetID": null,
           "reps": 12,
@@ -1945,7 +760,6 @@
           "date": "2026-02-10"
         },
         {
-          "activityName": null,
           "activityId": 21826897129,
           "ssetID": null,
           "reps": 10,
@@ -1953,35 +767,426 @@
           "date": "2026-02-10"
         },
         {
-          "activityName": null,
           "activityId": 21826897129,
           "ssetID": null,
           "reps": 10,
           "weight": 63000.0,
           "date": "2026-02-10"
-        },
+        }
+      ]
+    }
+  },
+  "BARBELL_ROW": {
+    "analytics": {
+      "rep_max": [
+        [
+          52000.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          52000.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          52000.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          52000.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          52000.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          52000.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          52000.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          52000.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          52000.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          52000.0,
+          "2026-02-09",
+          true
+        ]
+      ]
+    },
+    "sessions": {
+      "2026-02-03": [
         {
-          "activityName": "SEATED_DUMBBELL_TOE_RAISE",
-          "activityId": 21826897129,
+          "activityId": 21753660373,
           "ssetID": null,
           "reps": 12,
-          "weight": 6000.0,
+          "weight": 43000.0,
+          "date": "2026-02-03"
+        },
+        {
+          "activityId": 21753660373,
+          "ssetID": null,
+          "reps": 6,
+          "weight": 47000.0,
+          "date": "2026-02-03"
+        },
+        {
+          "activityId": 21753660373,
+          "ssetID": null,
+          "reps": 9,
+          "weight": 43000.0,
+          "date": "2026-02-03"
+        }
+      ],
+      "2026-02-09": [
+        {
+          "activityId": 21816357640,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 52000.0,
+          "date": "2026-02-09"
+        },
+        {
+          "activityId": 21816357640,
+          "ssetID": null,
+          "reps": 6,
+          "weight": 52000.0,
+          "date": "2026-02-09"
+        },
+        {
+          "activityId": 21816357640,
+          "ssetID": null,
+          "reps": 9,
+          "weight": 43000.0,
+          "date": "2026-02-09"
+        }
+      ]
+    }
+  },
+  "BARBELL_BACK_SQUAT": {
+    "analytics": {
+      "rep_max": [
+        [
+          52000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          52000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          52000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          52000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          52000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          52000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          52000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          52000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          52000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          52000.0,
+          "2026-02-04",
+          true
+        ]
+      ]
+    },
+    "sessions": {
+      "2026-02-04": [
+        {
+          "activityId": 21765179878,
+          "ssetID": null,
+          "reps": 20,
+          "weight": 20000.0,
+          "date": "2026-02-04"
+        },
+        {
+          "activityId": 21765179878,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 43000.0,
+          "date": "2026-02-04"
+        },
+        {
+          "activityId": 21765179878,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 52000.0,
+          "date": "2026-02-04"
+        }
+      ],
+      "2026-02-10": [
+        {
+          "activityId": 21826897129,
+          "ssetID": null,
+          "reps": 14,
+          "weight": 30000.0,
           "date": "2026-02-10"
         },
         {
-          "activityName": "SEATED_DUMBBELL_TOE_RAISE",
           "activityId": 21826897129,
           "ssetID": null,
           "reps": 8,
-          "weight": 9000.0,
+          "weight": 52000.0,
           "date": "2026-02-10"
         },
         {
-          "activityName": "SEATED_DUMBBELL_TOE_RAISE",
           "activityId": 21826897129,
           "ssetID": null,
           "reps": 8,
-          "weight": 6000.0,
+          "weight": 52000.0,
+          "date": "2026-02-10"
+        }
+      ]
+    }
+  },
+  "ROMANIAN_DEADLIFT": {
+    "analytics": {
+      "rep_max": [
+        [
+          61000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          61000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          61000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          61000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          61000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          61000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          61000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          61000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          61000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          61000.0,
+          "2026-02-04",
+          true
+        ]
+      ]
+    },
+    "sessions": {
+      "2026-02-04": [
+        {
+          "activityId": 21765179878,
+          "ssetID": null,
+          "reps": 12,
+          "weight": 43000.0,
+          "date": "2026-02-04"
+        },
+        {
+          "activityId": 21765179878,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 61000.0,
+          "date": "2026-02-04"
+        },
+        {
+          "activityId": 21765179878,
+          "ssetID": null,
+          "reps": 4,
+          "weight": 52000.0,
+          "date": "2026-02-04"
+        }
+      ],
+      "2026-02-10": [
+        {
+          "activityId": 21826897129,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 52000.0,
+          "date": "2026-02-10"
+        },
+        {
+          "activityId": 21826897129,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 61000.0,
+          "date": "2026-02-10"
+        },
+        {
+          "activityId": 21826897129,
+          "ssetID": null,
+          "reps": 8,
+          "weight": 61000.0,
+          "date": "2026-02-10"
+        }
+      ]
+    }
+  },
+  "WEIGHTED_LEG_EXTENSIONS": {
+    "analytics": {
+      "rep_max": [
+        [
+          55000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          55000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          55000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          55000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          55000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          55000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          55000.0,
+          "2026-02-10",
+          true
+        ],
+        [
+          50000.0,
+          "2026-02-10",
+          true
+        ],
+        [
+          45000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          45000.0,
+          "2026-02-04",
+          true
+        ]
+      ]
+    },
+    "sessions": {
+      "2026-02-04": [
+        {
+          "activityId": 21765179878,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 45000.0,
+          "date": "2026-02-04"
+        },
+        {
+          "activityId": 21765179878,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 45000.0,
+          "date": "2026-02-04"
+        },
+        {
+          "activityId": 21765179878,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 45000.0,
+          "date": "2026-02-04"
+        }
+      ],
+      "2026-02-10": [
+        {
+          "activityId": 21826897129,
+          "ssetID": null,
+          "reps": 11,
+          "weight": 45000.0,
+          "date": "2026-02-10"
+        },
+        {
+          "activityId": 21826897129,
+          "ssetID": null,
+          "reps": 8,
+          "weight": 50000.0,
+          "date": "2026-02-10"
+        },
+        {
+          "activityId": 21826897129,
+          "ssetID": null,
+          "reps": 7,
+          "weight": 55000.0,
           "date": "2026-02-10"
         }
       ]
@@ -2044,7 +1249,6 @@
     "sessions": {
       "2026-02-05": [
         {
-          "activityName": null,
           "activityId": 21775193347,
           "ssetID": null,
           "reps": 0,
@@ -2052,7 +1256,6 @@
           "date": "2026-02-05"
         },
         {
-          "activityName": null,
           "activityId": 21775193347,
           "ssetID": null,
           "reps": 7,
@@ -2060,7 +1263,6 @@
           "date": "2026-02-05"
         },
         {
-          "activityName": null,
           "activityId": 21775193347,
           "ssetID": null,
           "reps": 8,
@@ -2070,7 +1272,6 @@
       ],
       "2026-02-11": [
         {
-          "activityName": null,
           "activityId": 21838183510,
           "ssetID": null,
           "reps": 8,
@@ -2078,7 +1279,6 @@
           "date": "2026-02-11"
         },
         {
-          "activityName": null,
           "activityId": 21838183510,
           "ssetID": null,
           "reps": 7,
@@ -2086,7 +1286,6 @@
           "date": "2026-02-11"
         },
         {
-          "activityName": null,
           "activityId": 21838183510,
           "ssetID": null,
           "reps": 7,
@@ -2096,7 +1295,1074 @@
       ]
     }
   },
-  "BANDED_EXERCISES": {
+  "LYING_EZ_BAR_TRICEPS_EXTENSION": {
+    "analytics": {
+      "rep_max": [
+        [
+          16000.0,
+          "2026-02-05",
+          false
+        ],
+        [
+          16000.0,
+          "2026-02-05",
+          false
+        ],
+        [
+          16000.0,
+          "2026-02-05",
+          false
+        ],
+        [
+          16000.0,
+          "2026-02-05",
+          false
+        ],
+        [
+          16000.0,
+          "2026-02-05",
+          false
+        ],
+        [
+          16000.0,
+          "2026-02-05",
+          false
+        ],
+        [
+          16000.0,
+          "2026-02-05",
+          false
+        ],
+        [
+          16000.0,
+          "2026-02-05",
+          false
+        ],
+        [
+          16000.0,
+          "2026-02-05",
+          false
+        ],
+        [
+          16000.0,
+          "2026-02-05",
+          true
+        ]
+      ]
+    },
+    "sessions": {
+      "2026-02-05": [
+        {
+          "activityId": 21775193347,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 16000.0,
+          "date": "2026-02-05"
+        },
+        {
+          "activityId": 21775193347,
+          "ssetID": null,
+          "reps": 6,
+          "weight": 16000.0,
+          "date": "2026-02-05"
+        },
+        {
+          "activityId": 21775193347,
+          "ssetID": null,
+          "reps": 7,
+          "weight": 16000.0,
+          "date": "2026-02-05"
+        }
+      ],
+      "2026-02-11": [
+        {
+          "activityId": 21838183510,
+          "ssetID": null,
+          "reps": 11,
+          "weight": 16000.0,
+          "date": "2026-02-11"
+        },
+        {
+          "activityId": 21838183510,
+          "ssetID": null,
+          "reps": 7,
+          "weight": 16000.0,
+          "date": "2026-02-11"
+        },
+        {
+          "activityId": 21838183510,
+          "ssetID": null,
+          "reps": 2,
+          "weight": 16000.0,
+          "date": "2026-02-11"
+        }
+      ]
+    }
+  },
+  "SEATED_CABLE_ROW": {
+    "analytics": {
+      "rep_max": [
+        [
+          25000.0,
+          "2026-01-29",
+          false
+        ],
+        [
+          25000.0,
+          "2026-01-29",
+          false
+        ],
+        [
+          25000.0,
+          "2026-01-29",
+          false
+        ],
+        [
+          25000.0,
+          "2026-01-29",
+          false
+        ],
+        [
+          25000.0,
+          "2026-01-29",
+          false
+        ],
+        [
+          25000.0,
+          "2026-01-29",
+          false
+        ],
+        [
+          25000.0,
+          "2026-01-29",
+          false
+        ],
+        [
+          25000.0,
+          "2026-01-29",
+          true
+        ],
+        [
+          25000.0,
+          "2026-01-29",
+          false
+        ],
+        [
+          25000.0,
+          "2026-01-29",
+          true
+        ]
+      ]
+    },
+    "sessions": {
+      "2026-01-29": [
+        {
+          "activityId": 21705954819,
+          "ssetID": null,
+          "reps": 11,
+          "weight": null,
+          "date": "2026-01-29"
+        },
+        {
+          "activityId": 21705954819,
+          "ssetID": null,
+          "reps": 8,
+          "weight": 25000.0,
+          "date": "2026-01-29"
+        },
+        {
+          "activityId": 21705954819,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 25000.0,
+          "date": "2026-01-29"
+        },
+        {
+          "activityId": 21705954819,
+          "ssetID": null,
+          "reps": 8,
+          "weight": 25000.0,
+          "date": "2026-01-29"
+        }
+      ]
+    }
+  },
+  "GHD_BACK_EXTENSIONS": {
+    "analytics": {
+      "rep_max": [
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ]
+      ]
+    },
+    "sessions": {
+      "2026-02-03": [
+        {
+          "activityId": 21753660373,
+          "ssetID": null,
+          "reps": 11,
+          "weight": -1.0,
+          "date": "2026-02-03"
+        },
+        {
+          "activityId": 21753660373,
+          "ssetID": null,
+          "reps": 11,
+          "weight": -1.0,
+          "date": "2026-02-03"
+        },
+        {
+          "activityId": 21753660373,
+          "ssetID": null,
+          "reps": 7,
+          "weight": -1.0,
+          "date": "2026-02-03"
+        },
+        {
+          "activityId": 21753660373,
+          "ssetID": null,
+          "reps": 8,
+          "weight": -1.0,
+          "date": "2026-02-03"
+        }
+      ]
+    }
+  },
+  "DUMBBELL_BULGARIAN_SPLIT_SQUAT": {
+    "analytics": {
+      "rep_max": [
+        [
+          11500.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          11500.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          11500.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          11500.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          11500.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          11500.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          11500.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          11500.0,
+          "2026-02-10",
+          true
+        ],
+        [
+          9000.0,
+          "2026-02-04",
+          true
+        ],
+        [
+          0,
+          ""
+        ]
+      ]
+    },
+    "sessions": {
+      "2026-02-04": [
+        {
+          "activityId": 21765179878,
+          "ssetID": null,
+          "reps": 9,
+          "weight": 9000.0,
+          "date": "2026-02-04"
+        },
+        {
+          "activityId": 21765179878,
+          "ssetID": null,
+          "reps": 8,
+          "weight": 9000.0,
+          "date": "2026-02-04"
+        }
+      ],
+      "2026-02-10": [
+        {
+          "activityId": 21826897129,
+          "ssetID": null,
+          "reps": 8,
+          "weight": 11500.0,
+          "date": "2026-02-10"
+        },
+        {
+          "activityId": 21826897129,
+          "ssetID": null,
+          "reps": 8,
+          "weight": 11500.0,
+          "date": "2026-02-10"
+        }
+      ]
+    }
+  },
+  "BARBELL_BICEPS_CURL": {
+    "analytics": {
+      "rep_max": [
+        [
+          18000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          18000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          18000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          18000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          18000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          18000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          18000.0,
+          "2026-02-03",
+          true
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ]
+      ]
+    },
+    "sessions": {
+      "2026-02-03": [
+        {
+          "activityId": 21753660373,
+          "ssetID": null,
+          "reps": 7,
+          "weight": 18000.0,
+          "date": "2026-02-03"
+        },
+        {
+          "activityId": 21753660373,
+          "ssetID": null,
+          "reps": 6,
+          "weight": 18000.0,
+          "date": "2026-02-03"
+        },
+        {
+          "activityId": 21753660373,
+          "ssetID": null,
+          "reps": 5,
+          "weight": 18000.0,
+          "date": "2026-02-03"
+        }
+      ]
+    }
+  },
+  "DUMBBELL_SHRUG": {
+    "analytics": {
+      "rep_max": [
+        [
+          28000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          28000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          28000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          28000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          28000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          28000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          28000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          28000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          28000.0,
+          "2026-02-03",
+          true
+        ],
+        [
+          26000.0,
+          "2026-02-03",
+          false
+        ]
+      ]
+    },
+    "sessions": {
+      "2026-02-03": [
+        {
+          "activityId": 21753660373,
+          "ssetID": null,
+          "reps": 8,
+          "weight": 5000.0,
+          "date": "2026-02-03"
+        },
+        {
+          "activityId": 21753660373,
+          "ssetID": null,
+          "reps": 14,
+          "weight": 26000.0,
+          "date": "2026-02-03"
+        },
+        {
+          "activityId": 21753660373,
+          "ssetID": null,
+          "reps": 9,
+          "weight": 28000.0,
+          "date": "2026-02-03"
+        }
+      ]
+    }
+  },
+  "SHRUG": {
+    "analytics": {
+      "rep_max": [
+        [
+          54000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          54000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          54000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          54000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          54000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          54000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          54000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          54000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          54000.0,
+          "2026-02-04",
+          false
+        ],
+        [
+          54000.0,
+          "2026-02-04",
+          true
+        ]
+      ]
+    },
+    "sessions": {
+      "2026-02-04": [
+        {
+          "activityId": 21765179878,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 54000.0,
+          "date": "2026-02-04"
+        },
+        {
+          "activityId": 21765179878,
+          "ssetID": null,
+          "reps": 11,
+          "weight": 45000.0,
+          "date": "2026-02-04"
+        },
+        {
+          "activityId": 21765179878,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 45000.0,
+          "date": "2026-02-04"
+        }
+      ]
+    }
+  },
+  "SEATED_REAR_LATERAL_RAISE": {
+    "analytics": {
+      "rep_max": [
+        [
+          4500.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          4500.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          4500.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          4500.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          4500.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          4500.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          4500.0,
+          "2026-02-09",
+          true
+        ],
+        [
+          3000.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          3000.0,
+          "2026-02-09",
+          true
+        ],
+        [
+          3000.0,
+          "2026-02-09",
+          true
+        ]
+      ]
+    },
+    "sessions": {
+      "2026-02-09": [
+        {
+          "activityId": 21816357640,
+          "ssetID": null,
+          "reps": 7,
+          "weight": 4500.0,
+          "date": "2026-02-09"
+        },
+        {
+          "activityId": 21816357640,
+          "ssetID": null,
+          "reps": 9,
+          "weight": 3000.0,
+          "date": "2026-02-09"
+        },
+        {
+          "activityId": 21816357640,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 3000.0,
+          "date": "2026-02-09"
+        }
+      ]
+    }
+  },
+  "DUMBBELL_BICEPS_CURL": {
+    "analytics": {
+      "rep_max": [
+        [
+          9000.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          9000.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          9000.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          9000.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          9000.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          9000.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          9000.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          9000.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          9000.0,
+          "2026-02-09",
+          false
+        ],
+        [
+          9000.0,
+          "2026-02-09",
+          true
+        ]
+      ]
+    },
+    "sessions": {
+      "2026-02-09": [
+        {
+          "activityId": 21816357640,
+          "ssetID": null,
+          "reps": 15,
+          "weight": 8000.0,
+          "date": "2026-02-09"
+        },
+        {
+          "activityId": 21816357640,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 9000.0,
+          "date": "2026-02-09"
+        },
+        {
+          "activityId": 21816357640,
+          "ssetID": null,
+          "reps": 5,
+          "weight": 9000.0,
+          "date": "2026-02-09"
+        }
+      ]
+    }
+  },
+  "SEATED_DUMBBELL_TOE_RAISE": {
+    "analytics": {
+      "rep_max": [
+        [
+          9000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          9000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          9000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          9000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          9000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          9000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          9000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          9000.0,
+          "2026-02-10",
+          true
+        ],
+        [
+          6000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          6000.0,
+          "2026-02-10",
+          false
+        ]
+      ]
+    },
+    "sessions": {
+      "2026-02-10": [
+        {
+          "activityId": 21826897129,
+          "ssetID": null,
+          "reps": 12,
+          "weight": 6000.0,
+          "date": "2026-02-10"
+        },
+        {
+          "activityId": 21826897129,
+          "ssetID": null,
+          "reps": 8,
+          "weight": 9000.0,
+          "date": "2026-02-10"
+        },
+        {
+          "activityId": 21826897129,
+          "ssetID": null,
+          "reps": 8,
+          "weight": 6000.0,
+          "date": "2026-02-10"
+        }
+      ]
+    }
+  },
+  "WEIGHTED_KNEE_RAISES": {
+    "analytics": {
+      "rep_max": [
+        [
+          27000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          27000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          27000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          27000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          27000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          27000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          27000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          27000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          27000.0,
+          "2026-02-10",
+          false
+        ],
+        [
+          27000.0,
+          "2026-02-10",
+          false
+        ]
+      ]
+    },
+    "sessions": {
+      "2026-02-10": [
+        {
+          "activityId": 21826897129,
+          "ssetID": null,
+          "reps": 14,
+          "weight": 27000.0,
+          "date": "2026-02-10"
+        },
+        {
+          "activityId": 21826897129,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 27000.0,
+          "date": "2026-02-10"
+        },
+        {
+          "activityId": 21826897129,
+          "ssetID": null,
+          "reps": 4,
+          "weight": 27000.0,
+          "date": "2026-02-10"
+        }
+      ]
+    }
+  },
+  "WEIGHTED_SIT_UP": {
+    "analytics": {
+      "rep_max": [
+        [
+          8000.0,
+          "2026-02-02",
+          false
+        ],
+        [
+          8000.0,
+          "2026-02-02",
+          false
+        ],
+        [
+          8000.0,
+          "2026-02-02",
+          false
+        ],
+        [
+          8000.0,
+          "2026-02-02",
+          false
+        ],
+        [
+          8000.0,
+          "2026-02-02",
+          false
+        ],
+        [
+          8000.0,
+          "2026-02-02",
+          false
+        ],
+        [
+          8000.0,
+          "2026-02-02",
+          true
+        ],
+        [
+          8000.0,
+          "2026-02-02",
+          true
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ]
+      ]
+    },
+    "sessions": {
+      "2026-02-02": [
+        {
+          "activityId": 21743467027,
+          "ssetID": null,
+          "reps": 7,
+          "weight": 8000.0,
+          "date": "2026-02-02"
+        },
+        {
+          "activityId": 21743467027,
+          "ssetID": null,
+          "reps": 8,
+          "weight": 8000.0,
+          "date": "2026-02-02"
+        }
+      ]
+    }
+  },
+  "LAT_PULLDOWN": {
+    "analytics": {
+      "rep_max": [
+        [
+          43000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          43000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          43000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          43000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          43000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          43000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          43000.0,
+          "2026-02-03",
+          false
+        ],
+        [
+          43000.0,
+          "2026-02-03",
+          true
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ]
+      ]
+    },
+    "sessions": {
+      "2026-02-03": [
+        {
+          "activityId": 21753660373,
+          "ssetID": null,
+          "reps": 8,
+          "weight": 43000.0,
+          "date": "2026-02-03"
+        },
+        {
+          "activityId": 21753660373,
+          "ssetID": null,
+          "reps": 7,
+          "weight": 43000.0,
+          "date": "2026-02-03"
+        }
+      ]
+    }
+  },
+  "SHOULDER_EXTERNAL_ROTATION": {
     "analytics": {
       "rep_max": [
         [
@@ -2154,7 +2420,6 @@
     "sessions": {
       "2026-02-05": [
         {
-          "activityName": "SHOULDER_EXTERNAL_ROTATION",
           "activityId": 21775193347,
           "ssetID": null,
           "reps": 15,
@@ -2162,7 +2427,6 @@
           "date": "2026-02-05"
         },
         {
-          "activityName": "SHOULDER_EXTERNAL_ROTATION",
           "activityId": 21775193347,
           "ssetID": null,
           "reps": 15,
@@ -2172,7 +2436,7 @@
       ]
     }
   },
-  "OLYMPIC_LIFT": {
+  "CLEAN": {
     "analytics": {
       "rep_max": [
         [
@@ -2229,7 +2493,6 @@
     "sessions": {
       "2026-02-10": [
         {
-          "activityName": "CLEAN",
           "activityId": 21826897129,
           "ssetID": null,
           "reps": 9,
@@ -2237,7 +2500,6 @@
           "date": "2026-02-10"
         },
         {
-          "activityName": "CLEAN",
           "activityId": 21826897129,
           "ssetID": null,
           "reps": 7,
@@ -2247,7 +2509,7 @@
       ]
     }
   },
-  "HIP_STABILITY": {
+  "WEIGHTED_INNER_THIGH_LIFT": {
     "analytics": {
       "rep_max": [
         [
@@ -2305,7 +2567,6 @@
     "sessions": {
       "2026-02-10": [
         {
-          "activityName": "WEIGHTED_INNER_THIGH_LIFT",
           "activityId": 21826897129,
           "ssetID": null,
           "reps": 10,
@@ -2313,7 +2574,6 @@
           "date": "2026-02-10"
         },
         {
-          "activityName": "WEIGHTED_INNER_THIGH_LIFT",
           "activityId": 21826897129,
           "ssetID": null,
           "reps": 10,
@@ -2323,7 +2583,7 @@
       ]
     }
   },
-  "CORE": {
+  "WEIGHTED_GHD_BACK_EXTENSIONS": {
     "analytics": {
       "rep_max": [
         [
@@ -2381,7 +2641,6 @@
     "sessions": {
       "2026-02-10": [
         {
-          "activityName": "WEIGHTED_GHD_BACK_EXTENSIONS",
           "activityId": 21826897129,
           "ssetID": null,
           "reps": 10,
@@ -2389,7 +2648,6 @@
           "date": "2026-02-10"
         },
         {
-          "activityName": "WEIGHTED_GHD_BACK_EXTENSIONS",
           "activityId": 21826897129,
           "ssetID": null,
           "reps": 10,
@@ -2399,86 +2657,120 @@
       ]
     }
   },
-  "HYPEREXTENSION": {
+  "UNKNOWN": {
     "analytics": {
       "rep_max": [
         [
-          27000.0,
-          "2026-02-10",
+          8000.0,
+          "2026-02-02",
           false
         ],
         [
-          27000.0,
-          "2026-02-10",
+          8000.0,
+          "2026-02-02",
           false
         ],
         [
-          27000.0,
-          "2026-02-10",
+          8000.0,
+          "2026-02-02",
           false
         ],
         [
-          27000.0,
-          "2026-02-10",
-          false
+          8000.0,
+          "2026-02-02",
+          true
         ],
         [
-          27000.0,
-          "2026-02-10",
-          false
+          0,
+          ""
         ],
         [
-          27000.0,
-          "2026-02-10",
-          false
+          0,
+          ""
         ],
         [
-          27000.0,
-          "2026-02-10",
-          false
+          0,
+          ""
         ],
         [
-          27000.0,
-          "2026-02-10",
-          false
+          0,
+          ""
         ],
         [
-          27000.0,
-          "2026-02-10",
-          false
+          0,
+          ""
         ],
         [
-          27000.0,
-          "2026-02-10",
-          false
+          0,
+          ""
         ]
       ]
     },
     "sessions": {
-      "2026-02-10": [
+      "2026-02-02": [
         {
-          "activityName": "WEIGHTED_KNEE_RAISES",
-          "activityId": 21826897129,
-          "ssetID": null,
-          "reps": 14,
-          "weight": 27000.0,
-          "date": "2026-02-10"
-        },
-        {
-          "activityName": "WEIGHTED_KNEE_RAISES",
-          "activityId": 21826897129,
-          "ssetID": null,
-          "reps": 10,
-          "weight": 27000.0,
-          "date": "2026-02-10"
-        },
-        {
-          "activityName": "WEIGHTED_KNEE_RAISES",
-          "activityId": 21826897129,
+          "activityId": 21743467027,
           "ssetID": null,
           "reps": 4,
-          "weight": 27000.0,
-          "date": "2026-02-10"
+          "weight": 8000.0,
+          "date": "2026-02-02"
+        }
+      ]
+    }
+  },
+  "PUSH_UP": {
+    "analytics": {
+      "rep_max": [
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ],
+        [
+          0,
+          ""
+        ]
+      ]
+    },
+    "sessions": {
+      "2026-02-05": [
+        {
+          "activityId": 21775193347,
+          "ssetID": null,
+          "reps": 10,
+          "weight": 0.0,
+          "date": "2026-02-05"
         }
       ]
     }

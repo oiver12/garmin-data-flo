@@ -11,7 +11,9 @@ def parse():
             for sset in data["exerciseSets"]:
                 if sset["setType"] == "REST":
                     continue
-                exercise_name = sset["exercises"][0]["category"]
+                exercise_name = sset["exercises"][0]["name"]
+                if sset["exercises"][0]["name"] is None:
+                    exercise_name = sset["exercises"][0]["category"]
                 date = sset["startTime"][:10]
                 if exercise_name not in exercises:
                     exercises[exercise_name] = {
@@ -24,7 +26,6 @@ def parse():
                     exercises[exercise_name]["sessions"][date] = []
 
                 exercises[exercise_name]["sessions"][date].append({
-                    "activityName": sset["exercises"][0]["name"],
                     "activityId": data["activityId"],
                     "ssetID": sset["messageIndex"],
                     "reps": sset["repetitionCount"],
@@ -44,6 +45,8 @@ def parse():
  
     for exercise_name in exercises:
         exercises[exercise_name]["sessions"] = dict(sorted(exercises[exercise_name]["sessions"].items()))
+    # Sort exercises my number of sets
+    exercises = dict(sorted(exercises.items(), key=lambda x: sum(len(s) for s in x[1]["sessions"].values()), reverse=True))
 
     output_dir = Path(__file__).parent.parent / "data" / "exercise_json"
     output_dir.mkdir(parents=True, exist_ok=True)

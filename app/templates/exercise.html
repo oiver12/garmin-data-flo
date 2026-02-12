@@ -50,7 +50,6 @@
                                 <th>Set</th>
                                 <th>Reps</th>
                                 <th>Weight (kg)</th>
-                                <th>Variation</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -67,7 +66,6 @@
                                         -
                                     {% endif %}
                                 </td>
-                                <td class="variation-name">{{ set.activityName.replace('_', ' ').title() if set.activityName else '-' }}</td>
                             </tr>
                             {% endfor %}
                         </tbody>

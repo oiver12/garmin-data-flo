@@ -215,12 +215,11 @@ h1 {
 }
 
 .rep-max-row.actual {
-    background: #1a2744;
-    border: 1px solid #2a4a7a;
+    opacity: 1;
 }
 
 .rep-max-row.estimated {
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 .rm-reps {
@@ -328,11 +327,6 @@ h1 {
     border-bottom: none;
 }
 
-.variation-name {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
-    color: #888;
-    font-size: 13px !important;
-}
 
 .no-data {
     color: #555;
@@ -405,10 +399,5 @@ h1 {
         padding: 10px 12px;
     }
 
-    .variation-name {
-        max-width: 120px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
+    
 }
