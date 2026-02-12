@@ -339,21 +339,40 @@ h1 {
         flex-direction: column;
     }
 
+    .sessions-main {
+        order: 2;
+    }
+
     .rep-max-sidebar {
         width: 100%;
         position: static;
+        order: 1;
+        border: none;
+        background: transparent;
+        padding: 0;
+        margin-bottom: 8px;
     }
 
     .rep-max-list {
-        flex-direction: row;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
         gap: 4px;
     }
 
     .rep-max-row {
-        flex: 1;
-        min-width: 70px;
-        padding: 4px 6px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 6px 4px;
+        gap: 2px;
+    }
+
+    .rm-reps {
+        width: auto;
+    }
+
+    .rm-weight-block {
+        align-items: center;
     }
 
     .rm-weight {
@@ -362,7 +381,10 @@ h1 {
 
     .rm-reps {
         font-size: 10px;
-        width: auto;
+    }
+
+    .rm-date {
+        font-size: 8px;
     }
 }
 
