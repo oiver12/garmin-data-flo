@@ -43,7 +43,7 @@ def parse():
                             break
  
     for exercise_name in exercises:
-        exercises[exercise_name] = dict(sorted(exercises[exercise_name].items()))
+        exercises[exercise_name]["sessions"] = dict(sorted(exercises[exercise_name]["sessions"].items()))
 
     output_dir = Path(__file__).parent.parent / "data" / "exercise_json"
     output_dir.mkdir(parents=True, exist_ok=True)
