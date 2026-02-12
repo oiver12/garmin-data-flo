@@ -28,37 +28,11 @@
             <canvas id="rmChart" height="200"></canvas>
         </div>
         <script>
-            const sessionMetrics = JSON.parse('{{ session_metrics | tojson | e }}');
+            const sessionMetrics = {{ session_metrics | tojson }};
             const rmChart = initRMChart(sessionMetrics);
         </script>
         {% endif %}
-
         <div class="exercise-layout">
-            {% set analytics = exercise_data.analytics %}
-            {% if analytics and analytics.rep_max %}
-            <aside class="rep-max-sidebar">
-                <div class="rep-max-title">Rep Max</div>
-                <div class="rep-max-list">
-                    {% for entry in analytics.rep_max %}
-                    <div class="rep-max-row {% if entry | length >= 3 and entry[2] %}actual{% else %}estimated{% endif %}">
-                        {% if entry[0] > 0 %}
-                        <span class="rm-reps">{{ loop.index }}RM</span>
-                        <div class="rm-weight-block">
-                            <span class="rm-weight">{{ (entry[0] / 1000) | round(1) }}<small>kg</small></span>
-                            <span class="rm-date">{{ entry[1] }}</span>
-                        </div>
-                        {% else %}
-                        <span class="rm-reps">{{ loop.index }}RM</span>
-                        <div class="rm-weight-block">
-                            <span class="rm-weight no-data">—</span>
-                        </div>
-                        {% endif %}
-                    </div>
-                    {% endfor %}
-                </div>
-            </aside>
-            {% endif %}
-
             <div class="sessions-main">
                 {% set sessions = exercise_data.sessions %}
                 {% for date, sets in sessions.items() | reverse %}
@@ -93,6 +67,31 @@
                 </div>
                 {% endfor %}
             </div>
+
+            {% set analytics = exercise_data.analytics %}
+            {% if analytics and analytics.statistics and analytics.statistics.rep_max %}
+            <aside class="rep-max-sidebar">
+                <div class="rep-max-title">Rep Max</div>
+                <div class="rep-max-list">
+                    {% for entry in analytics.statistics.rep_max %}
+                    <div class="rep-max-row {% if entry | length >= 3 and entry[2] %}actual{% else %}estimated{% endif %}">
+                        {% if entry[0] > 0 %}
+                        <span class="rm-reps">{{ loop.index }}RM</span>
+                        <div class="rm-weight-block">
+                            <span class="rm-weight">{{ (entry[0] / 1000) | round(1) }}<small>kg</small></span>
+                            <span class="rm-date">{{ entry[1] }}</span>
+                        </div>
+                        {% else %}
+                        <span class="rm-reps">{{ loop.index }}RM</span>
+                        <div class="rm-weight-block">
+                            <span class="rm-weight no-data">—</span>
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+            </aside>
+            {% endif %}
         </div>
     </div>
     <script src="{{ url_for('static', filename='js/app.js') }}"></script>
