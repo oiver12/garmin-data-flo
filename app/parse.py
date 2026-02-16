@@ -19,6 +19,8 @@ def parse():
                     exercise_name = sset["exercises"][0]["category"]
                 if exercise_name in rename_dict.keys():
                     exercise_name = rename_dict[exercise_name]
+                if sset["weight"] is None:
+                    sset["weight"] = 0
                 if settings["include_bw"] and exercise_name == "PULL_UP":
                     sset["weight"] += bodyweight
                 date = sset["startTime"][:10]
@@ -26,7 +28,7 @@ def parse():
                     exercises[exercise_name] = {
                         "analytics": {
                             "statistics": {
-                                "rep_max": [[0, ""]]*12
+                                "rep_max": [[0, ""] for _ in range(12)]
                             },
                             "session_metrics": {
 
@@ -41,8 +43,7 @@ def parse():
                         "estimated_1rm": 0,
                         "estimated_5rm": 0,
                     }
-                if sset["weight"] is None:
-                    sset["weight"] = 0
+                
                 exercises[exercise_name]["sessions"][date].append({
                     "activityId": data["activityId"],
                     "ssetID": sset["messageIndex"],
@@ -98,4 +99,3 @@ def calculate5rm(weight, reps):
     # Using standard bryzki formula:
 
     return calculate1rm(weight, reps) * (1.0 - 0.0278 * 4)
-            
