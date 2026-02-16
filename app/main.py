@@ -25,9 +25,10 @@ def make_dirs_and_files():
     basedir_3 = Path(__file__).parent.parent / "data" / "raw_weight_history"
     basedir_1.mkdir(parents=True, exist_ok=True)
     basedir_2.mkdir(parents=True, exist_ok=True)
+    basedir_3.mkdir(parents=True, exist_ok=True)
     exercise_json_path = basedir_2 / "parsed_exercises.json"
     weight_history_path = Path(__file__).parent.parent / "data" / "parsed_jsons" / "weight_history.json"
-    raw_weight_history_path = Path(__file__).parent.parent / "data" / "parsed_jsons" / "raw_weight_history.json"
+    raw_weight_history_path = Path(__file__).parent.parent / "data" / "raw_weight_history" / "raw_weight_history.json"
 
 
     if not exercise_json_path.exists():
