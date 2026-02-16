@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Workout Tracker</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/components.css') }}">
 </head>
 <body>
     <div class="container">
         <div class="header">
             <h1>Workout Tracker</h1>
             <div class="sync-buttons">
+                <a href="/settings" class="back-btn" style="margin-right: 8px;">⚙️ Settings</a>
                 <button id="sync-last-btn" class="sync-btn sync-btn-secondary" onclick="syncLast()">
                     🔄 Sync Last 5
                 </button>
@@ -52,51 +54,7 @@
             {% endfor %}
         </div>
     </div>
-    <script>
-        async function syncAll() {
-            const btn = document.getElementById('sync-all-btn');
-            btn.disabled = true;
-            btn.textContent = '⏳ Syncing All...';
-            try {
-                const res = await fetch('/sync-all', { method: 'POST' });
-                const data = await res.json();
-                if (data.success) {
-                    btn.textContent = '✅ Synced!';
-                    setTimeout(() => location.reload(), 1000);
-                } else {
-                    btn.textContent = '❌ Failed';
-                    alert(data.message);
-                    setTimeout(() => { btn.disabled = false; btn.textContent = '🔄 Sync All'; }, 2000);
-                }
-            } catch(e) {
-                btn.textContent = '❌ Error';
-                alert('Error: ' + e);
-                setTimeout(() => { btn.disabled = false; btn.textContent = '🔄 Sync All'; }, 2000);
-            }
-        }
-
-        async function syncLast() {
-            const btn = document.getElementById('sync-last-btn');
-            btn.disabled = true;
-            btn.textContent = '⏳ Syncing...';
-            try {
-                const res = await fetch('/sync-last5', { method: 'POST' });
-                const data = await res.json();
-                if (data.success) {
-                    btn.textContent = '✅ Synced!';
-                    setTimeout(() => location.reload(), 1000);
-                } else {
-                    btn.textContent = '❌ Failed';
-                    alert(data.message);
-                    setTimeout(() => { btn.disabled = false; btn.textContent = '🔄 Sync Last 5'; }, 2000);
-                }
-            } catch(e) {
-                btn.textContent = '❌ Error';
-                alert('Error: ' + e);
-                setTimeout(() => { btn.disabled = false; btn.textContent = '🔄 Sync Last 5'; }, 2000);
-            }
-        }
-    </script>
+    <script src="{{ url_for('static', filename='js/sync.js') }}"></script>
     <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </body>
 </html>

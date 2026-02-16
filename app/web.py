@@ -3,6 +3,7 @@ import sys
 from flask import Flask, render_template, jsonify, request
 from pathlib import Path
 import json
+import config
 
 app = Flask(__name__)
 
@@ -79,6 +80,28 @@ def exercise_detail(exercise_name):
 @app.route("/api/exercises")
 def api_exercises():
     return jsonify(load_exercises())
+
+@app.route("/settings")
+def settings():
+    settings_dir = Path(__file__).parent.parent / "settings" / "settings.json"
+    with open(settings_dir, "r", encoding="utf-8") as f:
+        settings = json.load(f)
+    return render_template("settings.html", settings = settings)
+
+@app.route("/api/settings", methods=["GET", "POST"])
+def api_settings():
+    settings_dir = Path(__file__).parent.parent / "settings" / "settings.json"
+    if request.method == "GET":
+        with open(settings_dir, "r", encoding="utf-8") as f:
+            return jsonify(json.load(f))
+    if request.method == "POST":
+        data = request.json
+        print(data)
+        with open(settings_dir, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+        from parse import parse
+        parse()
+        return jsonify({"success": True, "message": "Settings saved"})
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))

@@ -1,7 +1,10 @@
+from pathlib import Path
+import json
 def parse():
-    from pathlib import Path
-    import json
-
+    bodyweight = 70000
+    
+    rename_dict = get_renamings()
+    settings = get_settings()
     exercises = {}
     base_dir = Path(__file__).parent.parent / "data" / "jsons"
     print(f"Parsing JSON files in {base_dir}...")
@@ -14,6 +17,10 @@ def parse():
                 exercise_name = sset["exercises"][0]["name"]
                 if sset["exercises"][0]["name"] is None:
                     exercise_name = sset["exercises"][0]["category"]
+                if exercise_name in rename_dict.keys():
+                    exercise_name = rename_dict[exercise_name]
+                if settings["include_bw"] and exercise_name == "PULL_UP":
+                    sset["weight"] += bodyweight
                 date = sset["startTime"][:10]
                 if exercise_name not in exercises:
                     exercises[exercise_name] = {
@@ -72,6 +79,16 @@ def parse():
     
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(exercises, f, indent=2)
+
+def get_renamings():
+    renaming_path = Path(__file__).parent.parent / "settings" / "grouped_exercises.json"
+    with open(renaming_path, "r", encoding="utf-8") as f:
+        return json.load(f)
+    
+def get_settings():
+    settings_path = Path(__file__).parent.parent / "settings" / "settings.json"
+    with open(settings_path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 def calculate1rm(weight, reps):
     # Using standard bryzki formula:

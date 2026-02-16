@@ -1,0 +1,266 @@
+/* Exercise — Detail page: layout, rep max sidebar, sessions, charts */
+
+/* Exercise Detail Layout */
+.exercise-layout {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.sessions-main {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Rep Max Sidebar */
+.rep-max-sidebar {
+    width: 160px;
+    flex-shrink: 0;
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+    padding: 14px;
+    position: sticky;
+    top: 20px;
+}
+
+.rep-max-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.rep-max-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.rep-max-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 8px;
+    border-radius: 6px;
+    background: #222;
+}
+
+.rep-max-row.actual {
+    opacity: 1;
+}
+
+.rep-max-row.estimated {
+    opacity: 0.5;
+}
+
+.rm-reps {
+    font-size: 11px;
+    font-weight: 700;
+    color: #b8b8b8;
+    width: 30px;
+    flex-shrink: 0;
+    font-family: 'SF Mono', 'Consolas', monospace;
+}
+
+.rep-max-row.actual .rm-reps {
+    font-weight: 900;
+}
+
+.rm-weight-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.rm-weight {
+    font-size: 14px;
+    font-weight: 900;
+    color: #e0e0e0;
+    font-family: 'SF Mono', 'Consolas', monospace;
+    line-height: 1.2;
+}
+
+.rep-max-row.actual .rm-weight {
+    color: #e5e5e5;
+}
+
+.rm-weight small {
+    font-size: 10px;
+    font-weight: 400;
+    color: #666;
+}
+
+.rm-weight.no-data {
+    color: #4a4a4a;
+    font-size: 12px;
+}
+
+.rm-date {
+    font-size: 10px;
+    color: #959595;
+    line-height: 1;
+}
+
+.rep-max-row.actual .rm-date {
+    color: #b5b5b5;
+}
+
+/* Date Sections */
+.date-section {
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+.date-header {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 16px 20px;
+    background: #1f1f1f;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+/* Set Table */
+.set-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.set-table thead th {
+    text-align: left;
+    padding: 10px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #666;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.set-table tbody tr {
+    transition: background 0.1s;
+}
+
+.set-table tbody tr:hover {
+    background: #222;
+}
+
+.set-table tbody td {
+    padding: 12px 20px;
+    font-size: 14px;
+    border-bottom: 1px solid #1f1f1f;
+    font-family: 'SF Mono', 'Consolas', monospace;
+}
+
+.set-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Chart */
+.chart-section {
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.chart-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.chart-buttons {
+    display: flex;
+    gap: 6px;
+}
+
+.toggle-btn {
+    padding: 6px 14px;
+    border-radius: 6px;
+    border: 1px solid #3b82f6;
+    background: transparent;
+    color: #3b82f6;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.toggle-btn.active {
+    background: #3b82f6;
+    color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .exercise-layout {
+        flex-direction: column;
+    }
+
+    .sessions-main {
+        order: 2;
+    }
+
+    .rep-max-sidebar {
+        width: 100%;
+        position: static;
+        order: 1;
+        border: none;
+        background: transparent;
+        padding: 0;
+        margin-bottom: 8px;
+    }
+
+    .rep-max-list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 4px;
+    }
+
+    .rep-max-row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 6px 4px;
+        gap: 2px;
+    }
+
+    .rm-reps {
+        width: auto;
+    }
+
+    .rm-weight-block {
+        align-items: center;
+    }
+
+    .rm-weight {
+        font-size: 12px;
+    }
+
+    .rm-reps {
+        font-size: 10px;
+    }
+
+    .rm-date {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 600px) {
+    .set-table thead th,
+    .set-table tbody td {
+        padding: 10px 12px;
+    }
+}
