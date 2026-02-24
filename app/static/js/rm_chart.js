@@ -1,13 +1,11 @@
 function initRMChart(sessionMetrics) {
     const labels = Object.keys(sessionMetrics).sort();
-    const data1rm = labels.map(d => sessionMetrics[d].estimated_1rm / 1000);
-    const data5rm = labels.map(d => sessionMetrics[d].estimated_5rm / 1000);
-
+    const data1rm = labels.map(d => ({ x: d, y: sessionMetrics[d].estimated_1rm / 1000 }));
+    const data5rm = labels.map(d => ({ x: d, y: sessionMetrics[d].estimated_5rm / 1000 }));
     const ctx = document.getElementById('rmChart').getContext('2d');
     const rmChart = new Chart(ctx, {
         type: 'line',
         data: {
-            labels: labels,
             datasets: [
                 {
                     label: 'Est. 1RM (kg)',
@@ -48,6 +46,14 @@ function initRMChart(sessionMetrics) {
             },
             scales: {
                 x: {
+                    type: 'time',
+                    time: {
+                        unit: 'day',
+                        displayFormats: {
+                            day: 'MMM d'
+                        },
+                        tooltipFormat: 'yyyy-MM-dd'
+                    },
                     ticks: { color: '#888' },
                     grid: { color: '#2a2a2a' }
                 },
@@ -64,6 +70,8 @@ function initRMChart(sessionMetrics) {
 
     return rmChart;
 }
+
+// ...existing code...
 
 function showRM(rmChart, mode) {
     const btn1 = document.getElementById('btn-1rm');

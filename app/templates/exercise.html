@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/components.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/exercise.css') }}">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
     <script src="{{ url_for('static', filename='js/rm_chart.js') }}"></script>
 </head>
 <body>
@@ -56,11 +57,11 @@
                                 <td>{{ set.reps if set.reps else '-' }}</td>
                                 <td>
                                     {% if set.weight and set.weight > 0 %}
-                                        {{ (set.weight / 1000) | round(1) }}
+                                    {{ (set.weight / 1000) | round(1) }}
                                     {% elif set.weight and set.weight == -1 %}
-                                        BW
+                                    BW
                                     {% else %}
-                                        -
+                                    -
                                     {% endif %}
                                 </td>
                             </tr>
