@@ -12,6 +12,19 @@
         <div class="header">
             <h1>Workout Tracker</h1>
             <div class="sync-buttons">
+                <div class="category-dropdown" id="category-dropdown">
+                    <button type="button" class="category-dropdown-btn" id="category-dropdown-btn" onclick="toggleCategoryDropdown()">
+                        🏷️ Filter
+                    </button>
+                    <div class="category-dropdown-menu" id="category-dropdown-menu">
+                        {% for category in categories %}
+                        <label class="category-option">
+                            <input type="checkbox" value="{{ category }}" checked onchange="applyFilters()">
+                            <span>{{ category.replace('_', ' ').title() }}</span>
+                        </label>
+                        {% endfor %}
+                    </div>
+                </div>
                 <a href="/settings" class="back-btn" style="margin-right: 8px;">⚙️ Settings</a>
                 <button id="sync-last-btn" class="sync-btn sync-btn-secondary" onclick="syncLast()">
                     🔄 Sync Last 5
@@ -30,7 +43,7 @@
             {% for d in dates %}
                 {% set ns.total_sets = ns.total_sets + sessions[d] | length %}
             {% endfor %}
-            <a href="/exercise/{{ exercise_name }}" class="exercise-card" data-name="{{ exercise_name }}">
+            <a href="/exercise/{{ exercise_name }}" class="exercise-card" data-name="{{ exercise_name }}" data-category="{{ exercise_data.muscle_category | default('UNCATEGORIZED') }}">
                 <div class="exercise-name">{{ exercise_name.replace('_', ' ').title() }}</div>
                 <div class="exercise-stats">
                     <span>📅 {{ dates | length }} sessions</span>

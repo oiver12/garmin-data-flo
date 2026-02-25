@@ -13,11 +13,19 @@ def load_exercises():
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
         return data
+    
+def load_categories():
+    json_path = Path(__file__).parent.parent / "settings" / "exercise_muscle.json"
+    
+    with open(json_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+        return data
 
 @app.route("/")
 def index():
     exercises = load_exercises()
-    return render_template("index.html", exercises=exercises)
+    categories = sorted(set(ex.get("muscle_category", "UNCATEGORIZED") for ex in exercises.values()))
+    return render_template("index.html", exercises=exercises, categories=categories)
 
 @app.route("/sync-all", methods=["POST"])
 def sync_all_data():

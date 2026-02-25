@@ -10,6 +10,7 @@ def parse():
     settings = get_settings()
     weights = simplify_weight_history()
     weights_cache = build_date_to_weight_cache(weights, config.START_DATE, datetime.today().isoformat())
+    muscle_groups = load_categories()
     exercises = {}
     base_dir = Path(__file__).parent.parent / "data" / "raw_exercise_jsons"
     print(f"Parsing JSON files in {base_dir}...")
@@ -43,7 +44,8 @@ def parse():
                             }
 
                         },
-                        "sessions": {}
+                        "sessions": {},
+                        "muscle_category": muscle_groups.get(exercise_name, "UNCATEGORIZED")
                     }
                 if date not in exercises[exercise_name]["sessions"].keys():
                     exercises[exercise_name]["sessions"][date] = []
@@ -51,6 +53,7 @@ def parse():
                         "estimated_1rm": 0,
                         "estimated_5rm": 0,
                     }
+                
                 
                 exercises[exercise_name]["sessions"][date].append({
                     "activityId": data["activityId"],
@@ -152,4 +155,15 @@ def build_date_to_weight_cache(weight_history: dict, start_date: str, end_date: 
         current += timedelta(days=1)
     
     return cache
+
+def load_categories():
+    json_path = Path(__file__).parent.parent / "settings" / "exercise_muscle.json"
+    
+    with open(json_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+        cache = {}
+        for category, exercises in data.items():
+            for exercise in exercises:
+                cache[exercise] = category
+        return cache
 
