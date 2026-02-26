@@ -19,7 +19,7 @@
                     <div class="category-dropdown-menu" id="category-dropdown-menu">
                         {% for category in categories %}
                         <label class="category-option">
-                            <input type="checkbox" value="{{ category }}" checked onchange="applyFilters()">
+                            <input type="checkbox" value="{{ category }}" onchange="applyFilters()">
                             <span>{{ category.replace('_', ' ').title() }}</span>
                         </label>
                         {% endfor %}

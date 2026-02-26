@@ -32,7 +32,7 @@ function applyFilters() {
     // Update button label
     const btn = document.getElementById("category-dropdown-btn");
     const total = checkboxes.length;
-    if (selectedCategories.length === total) {
+    if (selectedCategories.length === 0 || selectedCategories.length === total) {
         btn.textContent = "🏷️ Filter";
     } else {
         btn.textContent = "🏷️ " + selectedCategories.length + "/" + total;
