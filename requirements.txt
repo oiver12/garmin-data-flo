@@ -1,4 +1,4 @@
 flask
 python-dotenv
-garminconnect==0.3.0
+garminconnect==0.3.2
 cryptography
